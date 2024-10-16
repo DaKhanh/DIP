@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT EdWiser - About Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #222, #555);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        header {
+            width: 100%;
+            background-color: #4a4a4a;
+            padding: 10px 20px;
+            position: absolute;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 26px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            background-color: #555;
+            padding: 10px 20px;
+            margin-left: 10px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        .content {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+        .content h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 20px;
+            line-height: 1.6;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GPT EdWiser</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="chatbot.html">Chatbot</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>About Us</h2>
+        <p>GPT EdWiser is your go-to platform for learning and growing with specialized AI chatbots that provide tailored assistance to your educational needs.</p>
+        <p>Our mission is to empower students and lifelong learners with cutting-edge technology that makes education accessible, interactive, and personalized.</p>
+    </section>
+</body>
+</html>

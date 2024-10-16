@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT EdWiser - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1e1e1e, #333);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        header {
+            width: 100%;
+            background-color: #4a4a4a;
+            padding: 10px 20px;
+            position: absolute;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 26px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            background-color: #555;
+            padding: 10px 20px;
+            margin-left: 10px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        .content {
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+        .content h2 {
+            font-size: 70px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GPT EdWiser</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="chatbot.html">Chatbot</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>Welcome to GPT EdWiser</h2>
+        <p>Unlock the power of specialized language models tailored for your learning needs.</p>
+    </div>
+</body>
+</html>
+
+
