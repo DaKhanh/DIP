@@ -1,6 +1,5 @@
-# %% [markdown]
-# # New section
 
+#FAISS_v7.py
 # %%
 !pip install -U langchain-openai
 !pip install python-dotenv
