@@ -1,5 +1,6 @@
+# %% [markdown]
+# # New section
 
-#FAISS_v7.py
 # %%
 !pip install -U langchain-openai
 !pip install python-dotenv
@@ -54,14 +55,13 @@ if not openai_api_key or not openai_api_key.startswith('sk-'):
     raise ValueError("OpenAI API key is missing or invalid")
 
 # %%
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
-logger = logging.getLogger(__name__)
+
 
 # %%
 #data = pd.read_excel(r'C:\Users\cheww\Documents\Y3S1\DIP Project\modsoptimizer.xlsx')
 
 # %%
-file_path = (r"/content/data_cleaned.csv")
+file_path = (r"/content/modsoptimizerv3.csv")
 #df = pd.read_csv(file_path)
 #loader = [Document(page_content=row.to_string()) for _, row in df.iterrows()]
 loader = CSVLoader(file_path=file_path, csv_args={"delimiter": ",",})
@@ -98,7 +98,7 @@ llm = ChatOpenAI(
     openai_api_key=openai_api_key,
     model="gpt-3.5-turbo",
     temperature=0,  # Adjust for creative vs factual answer
-    max_tokens = 500
+    max_tokens = 1400
 )
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
@@ -106,7 +106,7 @@ memory = ConversationBufferMemory(memory_key="chat_history", return_messages=Tru
 # # New section
 
 # %%
-question = "can you tell me our previous conversation?"
+question = "what is the best eee module"
 
 # %%
 import spacy
@@ -128,8 +128,9 @@ keywords = extract_keywords(question)
 
 print(keywords)
 
+
 def is_course_related(question):
-    course_keywords = ["course", "recommend", "subject", "class", "module", "NTU", "major", "elective", "learn","mod", "BDE"]
+    course_keywords = ["introduce","prereq", "prerequisite", "AU", "details", "course", "recommend", "subject", "class", "module", "NTU", "major", "elective", "learn","mod", "BDE", ""]
     doc = nlp(question.lower())
 
     # Check if any of the course-related keywords are present in the question
@@ -148,6 +149,19 @@ def setup_llm_chain():
         Now, use the following context to answer the question:
         {context}
         Provide a helpful and accurate answer.
+
+        Here some more information you need to consider regarding column provided in the data:
+
+Core: module that must be taken by the major
+BDE is Broadening deepening electives. These are the module that is available to students outside of their core to be taken.
+
+A student can not take a BDE from a module that are ran from their department. For instance, if you are a EEE student you can not take EE3101 as a BDE
+Finally, if you are asked about details regarding a certain module please provide the course code, description, academic units, course title and prerequisite and dont include level
+
+
+If you are given questions that is related to subjective judgements, please provide a disclaimer that you dont have the exact data to backup your statement. such as when you are asked about which is the best mod
+
+
         """
     )
 
@@ -160,13 +174,13 @@ def setup_llm_chain():
 
 # %%
 def chat_with_llm_chain(question):
-    # Classify if the question is related to course recommendations
+    # Classify if the question is related to course
+    keywords = extract_keywords(question)
+    retriever = vector_store.as_retriever(
+    search_type="similarity", search_kwargs={'k': 50}
+    )
+    doc = retriever.invoke(keywords)
     if is_course_related(question):
-        keywords = extract_keywords(question)
-        retriever = vector_store.as_retriever(
-        search_type="similarity", search_kwargs={'k': 50}
-        )
-        doc = retriever.invoke(keywords)
         # Create an instruction for course recommendation scenario
         context = f"Instruction: You are a helpful assistant designed to help NTU students find courses. Provide accurate information about available courses at Nanyang Technological University.\n\nDocuments: {doc}\n\nQuestion: {question}"
 
@@ -184,5 +198,8 @@ def chat_with_llm_chain(question):
 # %%
 response = chat_with_llm_chain(question)
 print(response['text'])
+
+# %%
+
 
 
