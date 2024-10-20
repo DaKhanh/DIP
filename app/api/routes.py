@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from services.faiss_service import chat_with_llm_chain
+from app.services.faiss_service import chat_with_llm_chain
 
 api_blueprint = Blueprint('api', __name__)
 

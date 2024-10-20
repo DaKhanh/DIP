@@ -10,7 +10,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.schema import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from utils.helper_functions import extract_keywords, is_course_related
+from app.utils.helper_functions import extract_keywords, is_course_related
 from dotenv import load_dotenv
 
 # 加载环境变量中的 API Key
@@ -25,7 +25,7 @@ if not openai_api_key:
 embeddings = OpenAIEmbeddings(model="text-embedding-3-large", openai_api_key=openai_api_key)
 
 # 加载CSV文件并创建文档
-csv_path = 'data/modsoptimizerv3.csv'
+csv_path = 'D:\\dip_all\\app\\data\\modsoptimizerv3.csv'
 loader = CSVLoader(file_path=csv_path, csv_args={"delimiter": ","})
 data = loader.load()
 print(len(data))
