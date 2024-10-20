@@ -13,7 +13,6 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from app.utils.helper_functions import extract_keywords, is_course_related
 from dotenv import load_dotenv
 
-# 加载环境变量中的 API Key
 load_dotenv()
 
 openai_api_key = os.getenv('OPENAI_API_KEY')
@@ -21,10 +20,8 @@ openai_api_key = os.getenv('OPENAI_API_KEY')
 if not openai_api_key:
     raise ValueError("Missing OpenAI API key")
 
-# 初始化 OpenAI 的嵌入模型
 embeddings = OpenAIEmbeddings(model="text-embedding-3-large", openai_api_key=openai_api_key)
 
-# 加载CSV文件并创建文档
 csv_path = 'D:\\dip_all\\app\\data\\modsoptimizerv3.csv'
 loader = CSVLoader(file_path=csv_path, csv_args={"delimiter": ","})
 data = loader.load()
@@ -46,20 +43,16 @@ vector_store = FAISS(
 )
 vector_store.add_documents(documents=texts)
 
-# 确保索引成功添加了文档
 print(f"Number of documents in FAISS index: {index.ntotal}")
 
-# 初始化 ChatOpenAI 语言模型
 llm = ChatOpenAI(
     openai_api_key=openai_api_key,
     model="gpt-3.5-turbo",
-    temperature=0,  # 控制回答的创造性
-    max_tokens=1400  # 控制每个回答的最大长度
+    temperature=0,  
+    max_tokens=1400  
 )
 
-# 设置 LLMChain 的函数
 def setup_llm_chain():
-    """设置 LLMChain 的 Prompt 模板和链条"""
     prompt_template = PromptTemplate(
         input_variables=["chat_history", "context"],
         template="""
@@ -78,21 +71,17 @@ def setup_llm_chain():
     return llm_chain
 
 def chat_with_llm_chain(question):
-    """使用 FAISS 和 LLM 检索并回答用户问题"""
-    # 使用正则化的关键词提取
     keywords = extract_keywords(question)
-    print(f"Extracted keywords: {keywords}")  # 调试输出
+    print(f"Extracted keywords: {keywords}")  
 
-    # 调用 FAISS 检索器
     retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={'k': 10})
     doc = retriever.invoke(keywords)
     
-    print(f"Retrieved documents: {doc}")  # 调试输出
+    print(f"Retrieved documents: {doc}")  
     if not doc:
         print("No documents retrieved, FAISS retrieval might not be working correctly.")
 
 
-    # 根据问题是否与课程相关，调用不同的回答策略
     if is_course_related(question):
         context = f"Documents: {doc}\n\nQuestion: {question}"
         llm_chain = setup_llm_chain()
