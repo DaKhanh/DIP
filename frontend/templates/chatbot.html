@@ -1,0 +1,37 @@
+//chatbot.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT EdWiser - Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>GPT EdWiser</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="chatbot.html">Chatbot</a>
+            <a href="aboutUs.html">About Us</a>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Chatbot</h2>
+        <ul id="chat-history">
+            <!-- 用户问题和 AI 回答将会显示在这里 -->
+        </ul>
+    </section>
+
+    <div class="chatbox">
+        <form id="chat-form">
+            <input type="text" id="user-input" placeholder="Ask GPT EdWiser" required>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
