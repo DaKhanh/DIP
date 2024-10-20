@@ -3,6 +3,10 @@ from services.faiss_service import chat_with_llm_chain
 
 api_blueprint = Blueprint('api', __name__)
 
+@api_blueprint.route('/', methods=['GET'])
+def home():
+    return jsonify({"message": "Welcome to the RAG Chatbot API"}), 200
+
 # 定义POST接口，处理用户问题
 @api_blueprint.route('/ask', methods=['POST'])
 def ask_question():
