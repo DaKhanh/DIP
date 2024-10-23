@@ -1,6 +1,8 @@
+import logging
 from flask import Blueprint, request, jsonify
 from app.services.faiss_service import chat_with_llm_chain
 
+logging.basicConfig(level=logging.INFO) 
 api_blueprint = Blueprint('api', __name__)
 
 @api_blueprint.route('/', methods=['GET'])
@@ -17,7 +19,8 @@ def ask_question():
             return jsonify({'error': 'No question provided'}), 400
 
         response = chat_with_llm_chain(question)
-
+        
+        print("response text: " + response['text'])
         return jsonify({'answer': response['text']}), 200
     
     except Exception as e:

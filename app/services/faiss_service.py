@@ -83,7 +83,7 @@ def chat_with_llm_chain(question):
     retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={'k': 10})
     doc = retriever.invoke(keywords)
     
-    print(f"Retrieved documents: {doc}")  
+    # print(f"Retrieved documents: {doc}")  
     if not doc:
         print("No documents retrieved, FAISS retrieval might not be working correctly.")
 
