@@ -17,6 +17,7 @@
             height: 100vh;
             flex-direction: column;
         }
+        
         header {
             width: 100%;
             background-color: #4a4a4a;
@@ -28,10 +29,12 @@
             align-items: center;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+        
         header h1 {
             margin: 0;
             font-size: 26px;
         }
+        
         nav a {
             color: white;
             text-decoration: none;
@@ -41,25 +44,56 @@
             border-radius: 5px;
             transition: background 0.3s ease;
         }
+        
         nav a:hover {
             background-color: #777;
         }
+        
         .content {
             text-align: center;
-            padding: 40px;
-            animation: slideIn 1s ease;
+            padding: 20px;
+            height: 80%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
         }
-        .content h2 {
-            font-size: 50px;
-            margin-bottom: 20px;
+        
+        .chat-history {
+            max-width: 80%; /* 增加对话框宽度至80% */
+            margin: 20px auto; /* 让对话框水平居中 */
+            padding: 20px;
+            min-width: 900px; 
+            background-color: #222;
+            border-radius: 10px;
+            height: 60vh; /* 设置对话框高度为视口高度的60% */
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
         }
-        .content ul {
-            list-style: none;
-            font-size: 24px;
-            padding: 0;
-            margin: 0 auto;
-            max-width: 600px;
+        
+        .message {
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            max-width: 60%; /* 控制消息宽度 */
+            word-wrap: break-word; /* 允许在长文本中自动换行 */
         }
+        
+        .user-message {
+            background-color: #4a4a4a;
+            align-self: flex-end;
+            text-align: right;
+            border-top-right-radius: 0; /* 模仿 GPT 风格的用户消息气泡 */
+        }
+        
+        .bot-message {
+            background-color: #555;
+            align-self: flex-start;
+            text-align: left;
+            border-top-left-radius: 0; /* 模仿 GPT 风格的机器人消息气泡 */
+        }
+        
         .chatbox {
             width: 100%;
             background-color: #444;
@@ -68,19 +102,22 @@
             bottom: 0;
             left: 0;
         }
+        
         .chatbox form {
             display: flex;
             justify-content: center;
         }
+        
         .chatbox input[type="text"] {
             padding: 15px;
             font-size: 18px;
-            width: 80%;
+            width: 70%; /* 减少输入框宽度以平衡布局 */
             max-width: 800px;
             border: none;
             border-radius: 5px;
             margin-right: 10px;
         }
+        
         .chatbox input[type="submit"] {
             padding: 15px;
             font-size: 18px;
@@ -91,17 +128,9 @@
             cursor: pointer;
             transition: background 0.3s ease;
         }
+        
         .chatbox input[type="submit"]:hover {
             background-color: #777;
-        }
-        .response {
-            margin-top: 20px;
-            font-size: 18px;
-            color: #eee;
-        }
-        @keyframes slideIn {
-            0% { opacity: 0; transform: translateY(20px); }
-            100% { opacity: 1; transform: translateY(0); }
         }
     </style>
 </head>
@@ -120,7 +149,8 @@
         <ul>
             <li>Ask about NTU course information or requirements!</li>
         </ul>
-        <div class="response" id="response">Response will appear here...</div>
+        <!-- Chat History Section -->
+        <div class="chat-history" id="chatHistory"></div>
     </section>
 
     <div class="chatbox">
@@ -135,7 +165,21 @@
             event.preventDefault(); 
             
             const question = document.getElementById("question").value;
-            const responseDiv = document.getElementById("response");
+            const chatHistoryDiv = document.getElementById("chatHistory");
+
+            if (question.trim() === "") return; // Ignore empty questions
+
+            // Append user question to chat history
+            const userMessage = document.createElement('div');
+            userMessage.classList.add('message', 'user-message');
+            userMessage.textContent = question;
+            chatHistoryDiv.appendChild(userMessage);
+
+            // Clear input
+            document.getElementById("question").value = "";
+
+            // Scroll to bottom of chat history
+            chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
 
             fetch('http://127.0.0.1:5000/ask', {
                 method: 'POST',
@@ -146,11 +190,24 @@
             })
             .then(response => response.json())
             .then(data => {
-                responseDiv.textContent = data.answer; 
+                // Append bot response to chat history
+                const botMessage = document.createElement('div');
+                botMessage.classList.add('message', 'bot-message');
+                botMessage.textContent = data.answer;
+                chatHistoryDiv.appendChild(botMessage);
+
+                // Scroll to bottom of chat history
+                chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
             })
             .catch(error => {
                 console.error('Error:', error);
-                responseDiv.textContent = "An error occurred. Please try again.";
+                const errorMessage = document.createElement('div');
+                errorMessage.classList.add('message', 'bot-message');
+                errorMessage.textContent = "An error occurred. Please try again.";
+                chatHistoryDiv.appendChild(errorMessage);
+
+                // Scroll to bottom of chat history
+                chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
             });
         });
     </script>
