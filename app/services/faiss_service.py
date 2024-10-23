@@ -12,38 +12,30 @@ from langchain.schema import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from app.utils.helper_functions import extract_keywords, is_course_related
 from dotenv import load_dotenv
+import pickle
+
 
 load_dotenv()
 
 openai_api_key = os.getenv('OPENAI_API_KEY')
-
 if not openai_api_key:
     raise ValueError("Missing OpenAI API key")
 
+index = faiss.read_index("D:\\dip_all\\app\\data\\faiss_index.index")
+with open("D:\\dip_all\\app\\data\\faiss_docstore.pkl", "rb") as f:
+    docstore = pickle.load(f)
+with open("D:\\dip_all\\app\\data\\faiss_id_map.pkl", "rb") as f:
+    index_to_docstore_id = pickle.load(f)
+
 embeddings = OpenAIEmbeddings(model="text-embedding-3-large", openai_api_key=openai_api_key)
-
-csv_path = 'D:\\dip_all\\app\\data\\modsoptimizerv3.csv'
-loader = CSVLoader(file_path=csv_path, csv_args={"delimiter": ","})
-data = loader.load()
-print(len(data))
-
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100, add_start_index=True)
-texts = text_splitter.split_documents(data)
-
-texts_for_faiss = [doc.page_content for doc in texts]
-embeddings = OpenAIEmbeddings(model="text-embedding-3-large", openai_api_key=openai_api_key)
-
-index = faiss.IndexFlatL2(len(embeddings.embed_query("hello world")))
-
 vector_store = FAISS(
     embedding_function=embeddings,
     index=index,
-    docstore=InMemoryDocstore(),
-    index_to_docstore_id={},
+    docstore=docstore,
+    index_to_docstore_id=index_to_docstore_id,
 )
-vector_store.add_documents(documents=texts)
 
-print(f"Number of documents in FAISS index: {index.ntotal}")
+print(f"Loaded FAISS index with {index.ntotal} documents.")
 
 llm = ChatOpenAI(
     openai_api_key=openai_api_key,
