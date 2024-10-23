@@ -132,12 +132,11 @@
 
     <script>
         document.getElementById("chatForm").addEventListener("submit", function(event) {
-            event.preventDefault(); // 防止表单提交刷新页面
+            event.preventDefault(); 
             
             const question = document.getElementById("question").value;
             const responseDiv = document.getElementById("response");
 
-            // 调用后端 API
             fetch('http://127.0.0.1:5000/ask', {
                 method: 'POST',
                 headers: {
@@ -147,7 +146,7 @@
             })
             .then(response => response.json())
             .then(data => {
-                responseDiv.textContent = data.answer; // 显示返回的答案
+                responseDiv.textContent = data.answer; 
             })
             .catch(error => {
                 console.error('Error:', error);
