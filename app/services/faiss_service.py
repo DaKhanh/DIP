@@ -44,6 +44,8 @@ llm = ChatOpenAI(
     max_tokens=1400  
 )
 
+memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
+
 def setup_llm_chain():
     prompt_template = PromptTemplate(
         input_variables=["chat_history", "context"],
@@ -70,7 +72,7 @@ def setup_llm_chain():
     llm_chain = LLMChain(
         prompt=prompt_template,
         llm=llm,
-        memory=ConversationBufferMemory(memory_key="chat_history", return_messages=True)
+        memory=memory
     )
     return llm_chain
 
@@ -89,10 +91,10 @@ def chat_with_llm_chain(question):
     if is_course_related(question):
         context = f"Documents: {doc}\n\nQuestion: {question}"
         llm_chain = setup_llm_chain()
-        response = llm_chain.invoke({"context": context})
+        response = llm_chain.invoke({"context": context, "chat_history": memory.load_memory_variables({})["chat_history"]})
         return response
     else:
         context = f"General question: {question}"
         llm_chain = setup_llm_chain()
-        response = llm_chain.invoke({"context": context})
+        response = llm_chain.invoke({"context": context, "chat_history": memory.load_memory_variables({})["chat_history"]})
         return response
