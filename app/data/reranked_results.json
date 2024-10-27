@@ -132,7 +132,7 @@
         "text": "The aim of this course is hence to take students with no prior experience of thinking in a computational manner to a point where you can derive simple algorithms and code the programs to solve some basic problems in chemical engineering domain.\nmutually_exclusive: BG2211, CE1003, CE1103, CV1014, CZ1003, CZ1103, MA1008, MS1008, SC1003\nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: CB1117\ndepartment_maintaining: CBE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Renaissance Engineering (CBE) Year 4, Renaissance Engineering (CBE) Year 3, Chemical & Biomolecular Engineering Year 2\nlevel: 2\nprogram_code: CH"
     },
     {
-        "id": 44,
+        "id": 45,
         "text": "Overall, in this course, we will describe several fundamental principles, and we will illustrate them in action using hands-on examples and tools. The choice of algorithms and software packages will be representative but not exhaustive. As such, the detailed description of course content uses 'e.g.,' to give possible indicative instances, but the actual delivery of the course may choose other tools, programming languages, frameworks and examples (including or excluding the indicative instances). Furthermore, the instantiation of tools and examples could vary over time, based on practical considerations, e.g., maturity and popularity of the tools among practitioners. \nThe course will be delivered inter-mixing live lectures and hands-on exercises blended with some parts of the lectures offered in pre-recorded TEL format and curated reading materials.\nmutually_exclusive: \nnot_available: \nnot_available_all: (Admyr 2021-onwards)\noffered_as_bde: 1\noffered_as_ue: 1"
     },
     {
@@ -192,7 +192,7 @@
         "text": ": 423\ncode: CZ4125\nname: DEVELOPING DATA PRODUCTS\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^SCL4^WED^1430-1620^TR+95^;TUT^SCEL^WED^1630-1720^TR+95^\ndescription: Data products are products whose principal thrust is to use data to facilitate certain end goals. These products may exhibit varied levels of complexity, spanning from being raw and derived data, intelligence and services derived from or driven by data, enabled by algorithmic and statistical tools such as machine learning. In many data products, the role of data can be subtle and the overall product may be composed of other modules, which could be more prominent in appearance."
     },
     {
-        "id": 29,
+        "id": 30,
         "text": ": 1117\ncode: SC4024\nname: DATA VISUALISATION\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^SCL4^FRI^1430-1620^LT19A^;TUT^SCEL^TUE^1530-1720^LT19A^Teaching Wk2-13\ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: \ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Science And Economics Year 5, Business And Computing Year 4, Mathematical And Computer Sciences Year 4, Data Science & Artificial Intelligence Year 4, Data Science & Artificial Intelligence Year 3, Economics & Data Science Year 3, Computer Science Year 3, Economics & Data Science Year 4, Business And Computing Year 3, Computer Science Year 4\nlevel: 4\nprogram_code: SC"
     },
     {
@@ -228,11 +228,11 @@
         "text": ": 422\ncode: CZ4124\nname: DATA VISUALISATION\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^SCL4^FRI^1430-1620^LT19A^;TUT^SCEL^TUE^1530-1720^LT19A^Teaching Wk2-13\ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: \ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Science And Economics Year 5, Business And Computing Year 4, Data Science & Artificial Intelligence Year 4, Data Science & Artificial Intelligence Year 3, Computer Science Year 3, Computer Science And Economics Year 3, Business And Computing Year 3, Computer Science Year 4, Computer Science And Economics Year 4\nlevel: 4\nprogram_code: CZ"
     },
     {
-        "id": 96,
+        "id": 97,
         "text": "You will learn what this exciting new field is about: how it relates towards Singapore, ethical issues and its application in biological sciences. You will also learn about some of the main themes related to data science, namely algorithms, AI and machine learning, logic, databases and networks.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: BS1008 & BS1009\ndepartment_maintaining: BS\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Biological Sciences Year 2, Biological Sciences And Psychology Year 2, Biomedical Sciences And Biobusiness Year 2, Biomedical Sciences Year 2\nlevel: 10\nprogram_code: BS"
     },
     {
-        "id": 45,
+        "id": 46,
         "text": ": 366\ncode: CS4321\nname: DIGITAL INCLUSION & DISABILITY:TECH, INCL. DES & SOC FUTURES\nacademic_units: 4\nexam_schedule: \ncommon_information: LEC/STUDIO^LE^WED^1030-1320^CS-TR+9^\ndescription: This upper-level undergraduate course offers a cutting-edge case study of digital technology, inclusion, design and innovation in social life. It provides a state-of-the-art knowledge of the dynamic new area of disability and accessibility, showcasing powerful insights into what social inclusion and participation means in contemporary digital societies internationally. Exploring a range of emerging technologies from Internet, social media and media to driverless cars, AI, Internet of Things, and smart cities, this interdisciplinary course will equip students with theoretical, practical understanding of digital inclusion, and where it fits into technology and society.\nmutually_exclusive: \nnot_available: \nnot_available_all: Yr1\noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite:"
     },
     {
@@ -240,7 +240,7 @@
         "text": ": 415\ncode: CZ4032\nname: DATA ANALYTICS & MINING\nacademic_units: 3\nexam_schedule: 2024-11-2517:00-19:00\ncommon_information: LEC/STUDIO^SCL4^MON^1330-1520^LT19A^;TUT^SCEL^FRI^1630-1720^LT19A^Teaching Wk2-13\ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: \ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Science And Economics Year 5, Renaissance Engineering (CSC) Year 4, Mathematical And Computer Sciences Year 4, Data Science & Artificial Intelligence Year 4, Data Science & Artificial Intelligence Year 3, Renaissance Engineering (EEE) Year 4, Business And Computing Year 3, Computer Science Year 4, Computer Science And Economics Year 4\nlevel: 4\nprogram_code: CZ"
     },
     {
-        "id": 30,
+        "id": 29,
         "text": ": 1116\ncode: SC4020\nname: DATA ANALYTICS & MINING\nacademic_units: 3\nexam_schedule: 2024-11-2517:00-19:00\ncommon_information: LEC/STUDIO^SCL4^MON^1330-1520^LT19A^;TUT^SCEL^FRI^1630-1720^LT19A^Teaching Wk2-13\ndescription: \nmutually_exclusive: CE4032, CE9010, CZ4032, SC5010\nnot_available: \nnot_available_all: Yr1,  Yr2, (Admyr 2011-2020)\noffered_as_bde: 1\noffered_as_ue: 0\nprerequisite: Year 3 standing\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to:"
     },
     {
@@ -288,7 +288,7 @@
         "text": ": 1100\ncode: SC3010\nname: COMPUTER SECURITY\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^SCL4^TUE^0830-1020^LT19A^;TUT^SCEL^MON^0930-1020^LT1^Teaching Wk2-13\ndescription: This course aims to equip you with foundational knowledge on many important security issues and techniques required for cyber security.\nYou will have the knowledge of different security policies and security models, and have the ability to recognise security features and discover pitfalls in computing systems, including the operating system and software.\nmutually_exclusive: CE4062, CZ4062\nnot_available: BSB\nnot_available_all: (Admyr 2011-2020)\noffered_as_bde: 1\noffered_as_ue: 0\nprerequisite: SC2005\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to:"
     },
     {
-        "id": 97,
+        "id": 96,
         "text": ": 1083\ncode: SC1006\nname: COMPUTER ORGANISATION & ARCHITECTURE\nacademic_units: 3\nexam_schedule: 2024-11-2713:00-14:00\ncommon_information: LEC/STUDIO^SCL2^FRI^1230-1320^LT4^;LEC/STUDIO^SCL2^MON^1530-1620^LT4^\ndescription: Computer Hardware Decomposition; Solid-state memory subsystems; Magnetic memory; Input/Output techniques; The central processor unit; How high level code is `executed?; Quantifying and comparing performance;  Computer arithmetic; Towards higher speed.\nmutually_exclusive: CE1006, CE1106, CZ1006, CZ1106\nnot_available: EEE, EEE 1, EEEC, ENG(EEE), ENG(NULL), IEEC, IEM\nnot_available_all: (Admyr 2011-2020),\noffered_as_bde: 1\noffered_as_ue: 0\nprerequisite: SC1005(Corequisite)\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Engineering Year 1\nlevel: 1\nprogram_code: SC"
     },
     {
@@ -320,7 +320,7 @@
         "text": "not_available: \nnot_available_all: (Admyr 2021-onwards)\noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: Study Year 3 standing\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Data Science & Artificial Intelligence Year 3, Data Science & Artificial Intelligence Year 4\nlevel: 4\nprogram_code: CZ"
     },
     {
-        "id": 46,
+        "id": 44,
         "text": ": 43\ncode: AB0403\nname: DECISION MAKING WITH PROGRAMMING & ANALYTICS\nacademic_units: 3\nexam_schedule: 2024-12-0213:00-14:30\ncommon_information: \ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: \ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to:"
     },
     {

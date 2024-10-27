@@ -131,22 +131,34 @@ def chat_with_llm_chain(question):
     # limit the number of documents to 10 to avoid long prompts
     top_10_reranked_docs = reranked_docs[:10]
     
-    context_documents = "\n\n".join([doc["text"] for doc in reranked_docs])
+    context_documents = "\n\n".join([doc["text"] for doc in top_10_reranked_docs])
     print(f"join time: {time.time() - start_time}")
-    if not context_documents:
-        print("No valid documents found.")
-        return None
     
-    if is_course_related(question):
-        context = f"Documents: {context_documents}\n\nQuestion: {question}"
-        llm_chain = setup_llm_chain()
-        response = llm_chain.invoke({"context": context, 
-                                     "chat_history": memory.load_memory_variables({})["chat_history"]})
-        return response
+    # construct prompt
+    # if is_course_related(question):
+    #     context = f"Documents: {context_documents}\n\nQuestion: {question}"
+    # else:
+    #     context = f"General question: {question}"
     
-    else:
-        context = f"General question: {question}"
-        llm_chain = setup_llm_chain()
-        response = llm_chain.invoke({"context": context, 
-                                     "chat_history": memory.load_memory_variables({})["chat_history"]})
-        return response
+    context = f"Documents: {context_documents}\n\nQuestion: {question}"
+
+    # save the prompt to a file
+    prompt_file_path = "D:\\dip_all\\app\\data\\prompt.txt"
+    with open(prompt_file_path, 'w', encoding='utf-8') as f:
+        f.write(f"Prompt:\n{context}\n")
+    print(f"Saved prompt to {prompt_file_path}")
+
+    # LLMChain
+    llm_chain = setup_llm_chain()
+    response = llm_chain.invoke({
+        "context": context, 
+        "chat_history": memory.load_memory_variables({})["chat_history"]
+    })
+
+    # save the LLM response to a file
+    response_file_path = "D:\\dip_all\\app\\data\\llm_response.txt"
+    with open(response_file_path, 'w', encoding='utf-8') as f:
+        f.write(f"LLM Response:\n{response}\n")
+    print(f"Saved LLM response to {response_file_path}")
+        
+    return response
