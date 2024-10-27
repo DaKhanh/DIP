@@ -1,0 +1,82 @@
+[
+    {
+        "id": 0,
+        "text": ": 504\ncode: E2103L\nname: SEMICONDUCTOR FUNDAMENTALS\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE2103.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE1002 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Electrical & Electronic Engineering Year 3\nlevel: 2\nprogram_code: E"
+    },
+    {
+        "id": 18,
+        "text": ": 521\ncode: EE2103\nname: SEMICONDUCTOR FUNDAMENTALS\nacademic_units: 3\nexam_schedule: 2024-11-2617:00-19:00\ncommon_information: LEC/STUDIO^EELE^MON^1630-1820^LKC-LT^\ndescription: This course serves as a foundation course on Semiconductors. It covers a broad range of fundamental concepts in semiconductors such as basics of semiconductors and their properties, semiconductor in equilibrium/non- equilibrium, carrier transport phenomena, and operating principles of a semiconductor diode, metal-semiconductor contacts, and MOSFET.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE1002 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Electrical & Electronic Engineering Year 3\nlevel: 2\nprogram_code: EE"
+    },
+    {
+        "id": 4,
+        "text": ": 513\ncode: E3019L\nname: INTEGRATED ELECTRONICS\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE3019.\nmutually_exclusive: EE3003\nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2002 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Renaissance Engineering (EEE) Year 4, Electrical & Electronic Engineering And Economics Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: E"
+    },
+    {
+        "id": 2,
+        "text": ": 503\ncode: E2101L\nname: CIRCUIT ANALYSIS\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE2101.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: \nlevel: 2\nprogram_code: E"
+    },
+    {
+        "id": 12,
+        "text": ": 518\ncode: EE2073\nname: INTRODUCTION TO EEE DESIGN & PROJECT\nacademic_units: 2\nexam_schedule: \ncommon_information: LEC/STUDIO^EELE^FRI^1630-1920^LT22^Teaching Wk1,2\ndescription: This course aims to inspire your interest in learning through active participations in the laboratory-based and practice-oriented course on the solutions of typical engineering system design and implementation problems covering multi-disciplinary areas of electrical, electronic and computer engineering.\nContents: Lecture on Data Acquisition System and Application, and Electronic Circuit and System Design. A laboratory modules on LabVIEW programming and prescribed Project.\nmutually_exclusive: EE3071, EE3072, IM2073, IM3072\nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Renaissance Engineering (EEE) Year 3\nlevel: 2\nprogram_code: EE"
+    },
+    {
+        "id": 9,
+        "text": ": 509\ncode: E3013L\nname: SEMICONDUCTOR DEVICES & PROCESSING\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE3013.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2003 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: MAT\nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Electrical & Electronic Engineering And Economics Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: E"
+    },
+    {
+        "id": 14,
+        "text": ": 527\ncode: EE3101\nname: ENGINEERING ELECTROMAGNETICS\nacademic_units: 3\nexam_schedule: 2024-11-2713:00-15:00\ncommon_information: \ndescription: This course aims to develop your understanding of the fundamental principles underlying the theory of electromagnetic fields and waves and your ability to apply this theory to the solution of engineering problems, e.g. solving fields, charges, currents and voltages in electrostatic, magnetostatic and electromagnetic problems.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2007(Corequisite) & PH1011 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Electrical & Electronic Engineering And Economics Year 3, Renaissance Engineering (EEE) Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: EE"
+    },
+    {
+        "id": 6,
+        "text": ": 514\ncode: E3101L\nname: ENGINEERING ELECTROMAGNETICS\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE3101.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2007(Corequisite) & PH1011 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Electrical & Electronic Engineering And Economics Year 3, Renaissance Engineering (EEE) Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: E"
+    },
+    {
+        "id": 19,
+        "text": ": 510\ncode: E3014L\nname: DIGITAL SIGNAL PROCESSING\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE3014.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2010 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Information Engineering & Media Year 3, Information Engineering & Media And Economics Year 4, Information Engineering & Media And Economics Year 3, Information Engineering & Media And Economics Year 5, Electrical & Electronic Engineering And Economics Year 4, Information Engineering & Media Year 4, Electrical & Electronic Engineering Year 4, Electrical & Electronic Engineering And Economics Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: E"
+    },
+    {
+        "id": 8,
+        "text": ": 519\ncode: EE2101\nname: CIRCUIT ANALYSIS\nacademic_units: 3\nexam_schedule: 2024-12-0209:00-11:00\ncommon_information: LEC/STUDIO^EELE^THU^1730-1820^LKC-LT^Teaching Wk4,6,8,10,12,13\ndescription: This course focuses on the fundamental principles of circuit theorems and circuit elements, DC/AC and three-phase circuits, transient and steady-state responses, circuit analysis using Laplace transforms.\n\nIn this course, you will learn various techniques ('tools') to analyze the operation of real circuits. Our major concern is the analysis of circuits, i.e. the study of the behavior of the circuit, not the creation of circuits, i.e., the engineering design of the circuit.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: \nlevel: 2\nprogram_code: EE"
+    },
+    {
+        "id": 5,
+        "text": ": 507\ncode: E3011L\nname: MODELLING & CONTROL\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE3011.\nmutually_exclusive: \nnot_available: REP(ASEN), REP(BIE), REP(CBE), REP(CE), REP(CSC), REP(CVEN), REP(ENE), REP(MAT), REP(ME)\nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2006 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Renaissance Engineering (CSC) Year 4, Renaissance Engineering (CE) Year 4, Renaissance Engineering (EEE) Year 4, Electrical & Electronic Engineering And Economics Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: E"
+    },
+    {
+        "id": 13,
+        "text": ": 508\ncode: E3012L\nname: COMMUNICATION PRINCIPLES\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE3012.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2010 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Information Engineering & Media Year 3, Information Engineering & Media And Economics Year 4, Renaissance Engineering (CSC) Year 4, Information Engineering & Media And Economics Year 3, Information Engineering & Media And Economics Year 5, Information Engineering & Media Year 4, Renaissance Engineering (EEE) Year 4, Electrical & Electronic Engineering And Economics Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: E"
+    },
+    {
+        "id": 3,
+        "text": "mutually_exclusive: E3010L, EE3010\nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2001 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: EEE(2011-2019)(Non Direct Entry), EEE(2011-2020), EEE(2011-2020)(Direct Entry), EEEC(2011-2019)\nnot_offered_as_pe_to: \nprogram_list: \nlevel: 2\nprogram_code: EE"
+    },
+    {
+        "id": 16,
+        "text": ": 511\ncode: E3015L\nname: POWER SYSTEMS & CONVERSION\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE3015.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2001 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Electrical & Electronic Engineering And Economics Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: E"
+    },
+    {
+        "id": 1,
+        "text": "offered_as_ue: 1\nprerequisite: EE2005 & EE3015 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Renaissance Engineering (EEE) Year 4, Electrical & Electronic Engineering Year 4, Electrical & Electronic Engineering And Economics Year 4\nlevel: 4\nprogram_code: EE"
+    },
+    {
+        "id": 15,
+        "text": ": 502\ncode: E2005L\nname: ELECTRICAL DEVICES & MACHINES\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE2005.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2001 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: \nlevel: 2\nprogram_code: E"
+    },
+    {
+        "id": 17,
+        "text": "mutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2001 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Renaissance Engineering (CSC) Year 4\nlevel: 2\nprogram_code: EE"
+    },
+    {
+        "id": 7,
+        "text": "not_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2001 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Electrical & Electronic Engineering And Economics Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: EE"
+    },
+    {
+        "id": 10,
+        "text": "level: 4\nprogram_code: EE"
+    },
+    {
+        "id": 11,
+        "text": "level: 4\nprogram_code: EE"
+    }
+]

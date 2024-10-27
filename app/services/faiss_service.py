@@ -12,7 +12,10 @@ from langchain.schema import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from app.utils.helper_functions import extract_keywords, is_course_related
 from dotenv import load_dotenv
+from flashrank import Ranker, RerankRequest
 import pickle
+import json
+import time
 
 
 load_dotenv()
@@ -80,21 +83,67 @@ def chat_with_llm_chain(question):
     keywords = extract_keywords(question)
     print(f"Extracted keywords: {keywords}")  
 
-    retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={'k': 10})
-    doc = retriever.invoke(keywords)
+    retriever = vector_store.as_retriever(search_type="similarity", 
+                                          search_kwargs={'k': 20})
+    initial_docs = retriever.invoke(keywords)
     
     # print(f"Retrieved documents: {doc}")  
-    if not doc:
+    if not initial_docs:
         print("No documents retrieved, FAISS retrieval might not be working correctly.")
+    
+    start_time = time.time()
+    # prepare the initial results in the format expected by FlashRank
+    passages = [{"id": i, "text": doc.page_content} for i, doc in enumerate(initial_docs)]
+    print(f"Retrieval time: {time.time() - start_time}")
 
+    # save the initial resultsc as a json file at "D:\\dip_all\\app\\data\\initial_results.json"
+    initial_results_path = "D:\\dip_all\\app\\data\\initial_results.json"
+    with open(initial_results_path, 'w') as json_file:
+        json.dump(passages, json_file, indent=4)
+    print(f"Saved JSON file to {initial_results_path}")
+    
+    print(f"Write time: {time.time() - start_time}")
 
+    # FlashRank for re-ranking
+    ############################# Reranking ################################
+    ranker = Ranker(model_name="ms-marco-TinyBERT-L-2-v2")  
+    rerank_request = RerankRequest(query=question, passages=passages)
+    reranked_docs = ranker.rerank(rerank_request)
+    print(f"Reranking time: {time.time() - start_time}")
+
+    if not reranked_docs or len(reranked_docs) == 0:
+        print("No documents passed the refinement stage.")
+        return None
+    print(f"Reranked documents: {len(reranked_docs)}")
+    
+
+    # save the reranked results at "D:\\dip_all\\app\\data\\reranked_results.json"
+    # remove the 'score' field from the document
+    for doc in reranked_docs:
+        if 'score' in doc:
+            del doc['score']
+
+    reranked_results_path = "D:\\dip_all\\app\\data\\reranked_results.json"
+    with open(reranked_results_path, 'w') as json_file:
+        json.dump(reranked_docs, json_file, indent=4)
+    print(f"Saved JSON file to {reranked_results_path}")
+        
+    context_documents = "\n\n".join([doc["text"] for doc in reranked_docs])
+    print(f"join time: {time.time() - start_time}")
+    if not context_documents:
+        print("No valid documents found.")
+        return None
+    
     if is_course_related(question):
-        context = f"Documents: {doc}\n\nQuestion: {question}"
+        context = f"Documents: {context_documents}\n\nQuestion: {question}"
         llm_chain = setup_llm_chain()
-        response = llm_chain.invoke({"context": context, "chat_history": memory.load_memory_variables({})["chat_history"]})
+        response = llm_chain.invoke({"context": context, 
+                                     "chat_history": memory.load_memory_variables({})["chat_history"]})
         return response
+    
     else:
         context = f"General question: {question}"
         llm_chain = setup_llm_chain()
-        response = llm_chain.invoke({"context": context, "chat_history": memory.load_memory_variables({})["chat_history"]})
+        response = llm_chain.invoke({"context": context, 
+                                     "chat_history": memory.load_memory_variables({})["chat_history"]})
         return response

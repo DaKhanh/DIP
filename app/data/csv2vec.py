@@ -16,7 +16,7 @@ if not openai_api_key:
 
 embeddings = OpenAIEmbeddings(model="text-embedding-3-large", openai_api_key=openai_api_key)
 
-csv_path = 'D:\\dip_all\\app\\data\\modsoptimizerv3.csv'
+csv_path = 'D:\\dip_all\\app\\data\\data_cleaned.csv'
 loader = CSVLoader(file_path=csv_path, csv_args={"delimiter": ","})
 data = loader.load()
 
