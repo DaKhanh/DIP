@@ -1,82 +1,402 @@
 [
     {
         "id": 0,
-        "text": ": 504\ncode: E2103L\nname: SEMICONDUCTOR FUNDAMENTALS\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE2103.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE1002 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Electrical & Electronic Engineering Year 3\nlevel: 2\nprogram_code: E"
-    },
-    {
-        "id": 18,
-        "text": ": 521\ncode: EE2103\nname: SEMICONDUCTOR FUNDAMENTALS\nacademic_units: 3\nexam_schedule: 2024-11-2617:00-19:00\ncommon_information: LEC/STUDIO^EELE^MON^1630-1820^LKC-LT^\ndescription: This course serves as a foundation course on Semiconductors. It covers a broad range of fundamental concepts in semiconductors such as basics of semiconductors and their properties, semiconductor in equilibrium/non- equilibrium, carrier transport phenomena, and operating principles of a semiconductor diode, metal-semiconductor contacts, and MOSFET.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE1002 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Electrical & Electronic Engineering Year 3\nlevel: 2\nprogram_code: EE"
-    },
-    {
-        "id": 4,
-        "text": ": 513\ncode: E3019L\nname: INTEGRATED ELECTRONICS\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE3019.\nmutually_exclusive: EE3003\nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2002 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Renaissance Engineering (EEE) Year 4, Electrical & Electronic Engineering And Economics Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: E"
-    },
-    {
-        "id": 2,
-        "text": ": 503\ncode: E2101L\nname: CIRCUIT ANALYSIS\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE2101.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: \nlevel: 2\nprogram_code: E"
-    },
-    {
-        "id": 12,
-        "text": ": 518\ncode: EE2073\nname: INTRODUCTION TO EEE DESIGN & PROJECT\nacademic_units: 2\nexam_schedule: \ncommon_information: LEC/STUDIO^EELE^FRI^1630-1920^LT22^Teaching Wk1,2\ndescription: This course aims to inspire your interest in learning through active participations in the laboratory-based and practice-oriented course on the solutions of typical engineering system design and implementation problems covering multi-disciplinary areas of electrical, electronic and computer engineering.\nContents: Lecture on Data Acquisition System and Application, and Electronic Circuit and System Design. A laboratory modules on LabVIEW programming and prescribed Project.\nmutually_exclusive: EE3071, EE3072, IM2073, IM3072\nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Renaissance Engineering (EEE) Year 3\nlevel: 2\nprogram_code: EE"
-    },
-    {
-        "id": 9,
-        "text": ": 509\ncode: E3013L\nname: SEMICONDUCTOR DEVICES & PROCESSING\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE3013.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2003 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: MAT\nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Electrical & Electronic Engineering And Economics Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: E"
-    },
-    {
-        "id": 14,
-        "text": ": 527\ncode: EE3101\nname: ENGINEERING ELECTROMAGNETICS\nacademic_units: 3\nexam_schedule: 2024-11-2713:00-15:00\ncommon_information: \ndescription: This course aims to develop your understanding of the fundamental principles underlying the theory of electromagnetic fields and waves and your ability to apply this theory to the solution of engineering problems, e.g. solving fields, charges, currents and voltages in electrostatic, magnetostatic and electromagnetic problems.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2007(Corequisite) & PH1011 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Electrical & Electronic Engineering And Economics Year 3, Renaissance Engineering (EEE) Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: EE"
-    },
-    {
-        "id": 6,
-        "text": ": 514\ncode: E3101L\nname: ENGINEERING ELECTROMAGNETICS\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE3101.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2007(Corequisite) & PH1011 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Electrical & Electronic Engineering And Economics Year 3, Renaissance Engineering (EEE) Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: E"
-    },
-    {
-        "id": 19,
-        "text": ": 510\ncode: E3014L\nname: DIGITAL SIGNAL PROCESSING\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE3014.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2010 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Information Engineering & Media Year 3, Information Engineering & Media And Economics Year 4, Information Engineering & Media And Economics Year 3, Information Engineering & Media And Economics Year 5, Electrical & Electronic Engineering And Economics Year 4, Information Engineering & Media Year 4, Electrical & Electronic Engineering Year 4, Electrical & Electronic Engineering And Economics Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: E"
-    },
-    {
-        "id": 8,
-        "text": ": 519\ncode: EE2101\nname: CIRCUIT ANALYSIS\nacademic_units: 3\nexam_schedule: 2024-12-0209:00-11:00\ncommon_information: LEC/STUDIO^EELE^THU^1730-1820^LKC-LT^Teaching Wk4,6,8,10,12,13\ndescription: This course focuses on the fundamental principles of circuit theorems and circuit elements, DC/AC and three-phase circuits, transient and steady-state responses, circuit analysis using Laplace transforms.\n\nIn this course, you will learn various techniques ('tools') to analyze the operation of real circuits. Our major concern is the analysis of circuits, i.e. the study of the behavior of the circuit, not the creation of circuits, i.e., the engineering design of the circuit.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: \nlevel: 2\nprogram_code: EE"
-    },
-    {
-        "id": 5,
-        "text": ": 507\ncode: E3011L\nname: MODELLING & CONTROL\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE3011.\nmutually_exclusive: \nnot_available: REP(ASEN), REP(BIE), REP(CBE), REP(CE), REP(CSC), REP(CVEN), REP(ENE), REP(MAT), REP(ME)\nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2006 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Renaissance Engineering (CSC) Year 4, Renaissance Engineering (CE) Year 4, Renaissance Engineering (EEE) Year 4, Electrical & Electronic Engineering And Economics Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: E"
-    },
-    {
-        "id": 13,
-        "text": ": 508\ncode: E3012L\nname: COMMUNICATION PRINCIPLES\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE3012.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2010 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Information Engineering & Media Year 3, Information Engineering & Media And Economics Year 4, Renaissance Engineering (CSC) Year 4, Information Engineering & Media And Economics Year 3, Information Engineering & Media And Economics Year 5, Information Engineering & Media Year 4, Renaissance Engineering (EEE) Year 4, Electrical & Electronic Engineering And Economics Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: E"
+        "text": ": 839\ncode: IE2108\nname: DATA STRUCTURES & ALGORITHMS IN PYTHON\nacademic_units: 3\nexam_schedule: 2024-11-2613:00-15:00\ncommon_information: LEC/STUDIO^EELE^MON^0930-1050^LT22^\ndescription: This course aims to give a systematic introduction to data structures and algorithms for constructing efficient computer programs based on Python. Principles of algorithmic analysis will be studied.  \nEmphasis is on data structures and efficient algorithms in the program development process, covering abstract data types, trees, graphs, sorting, and searching. The greedy technique such as Kruskal's algorithm and Dijkstra's algorithm will be introduced. AI algorithms such as classification will also be discussed. Theories will be practiced during tutorial sessions and students will gain substantial Python programming experience.\nmutually_exclusive: \nnot_available: REP(ASEN), REP(BIE), REP(CBE), REP(CE), REP(CSC), REP(CVEN), REP(ENE), REP(MAT), REP(ME)\nnot_available_all: \noffered_as_bde: 1"
     },
     {
         "id": 3,
-        "text": "mutually_exclusive: E3010L, EE3010\nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2001 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: EEE(2011-2019)(Non Direct Entry), EEE(2011-2020), EEE(2011-2020)(Direct Entry), EEEC(2011-2019)\nnot_offered_as_pe_to: \nprogram_list: \nlevel: 2\nprogram_code: EE"
+        "text": "The course will motivate you to work closely with data and make data-driven decisions in your field of study. The course will also touch upon ethical issues in Data Science and Artificial Intelligence, and motivate you to explore the cutting-edge applications related to Big Data, Neural Networks and Deep Learning. Python will be the language of choice to introduce hands-on computational techniques.\nmutually_exclusive: CB0494, CE1015, CE1115, CE4073, CH0494, CV0003, CZ1015, CZ1016, CZ1115, CZ4073, EE0005, IE0005, MA0218, MS0003, PS0002\nnot_available: \nnot_available_all: (Admyr 2011-2020)\noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: SC1003\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Engineering Year 1\nlevel: 1\nprogram_code: SC"
     },
     {
-        "id": 16,
-        "text": ": 511\ncode: E3015L\nname: POWER SYSTEMS & CONVERSION\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE3015.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2001 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Electrical & Electronic Engineering And Economics Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: E"
+        "id": 5,
+        "text": "The course will motivate you to work closely with data and make data-driven decisions in your field of study. The course will also touch upon ethical issues in Data Science and Artificial Intelligence, and motivate you to explore the cutting-edge applications related to Big Data, Neural Networks and Deep Learning. Python will be the language of choice to introduce hands-on computational techniques.\nmutually_exclusive: CE1015, CE1115, CE4073, CH0494, CZ1015, CZ1016, CZ1115, CZ4073, MA0218, MS0003, SC1015\nnot_available: \nnot_available_all: (Admyr 2011-2017)-Non Direct Entry, (Admyr 2011-2018)-Direct Entry\noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: CV1014\ndepartment_maintaining: CEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to:"
     },
     {
-        "id": 1,
-        "text": "offered_as_ue: 1\nprerequisite: EE2005 & EE3015 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Renaissance Engineering (EEE) Year 4, Electrical & Electronic Engineering Year 4, Electrical & Electronic Engineering And Economics Year 4\nlevel: 4\nprogram_code: EE"
+        "id": 19,
+        "text": "The aim of this course is to provide a broad understanding on how to manage data, the process of preparing data for analysis, basics of analytics, using AI to automate financial analysis process and generate accounting reports. This course will equip you with the ability to write customized solutions to make informed business decisions, integrate statistical libraries for data analysis, create AI models to automate accounting and financial process. This module will provide you with individual hands-on practices to hone your coding skills and opportunities to develop coding solutions in a team. We utilize R and Python language as the medium of learning because it is one of the most in-demand coding language and its user-friendly syntax is well suited for the beginner level. You will utilise modern development tools to turn information into insights including Keras' Deep Learning model, Google Brain TensorFlow, Hadoop, Spark and Cloud.\nmutually_exclusive: BC3409, BF3223\nnot_available:"
     },
     {
-        "id": 15,
-        "text": ": 502\ncode: E2005L\nname: ELECTRICAL DEVICES & MACHINES\nacademic_units: 0\nexam_schedule: \ncommon_information: \ndescription: Practical or hands-on module to complement EE2005.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2001 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: \nlevel: 2\nprogram_code: E"
+        "id": 21,
+        "text": "The aim of this course is to provide a broad understanding on how to manage data, the process of preparing data for analysis, basics of analytics, using AI to automate financial analysis process and generate accounting reports. This course will equip you with the ability to write customized solutions to make informed business decisions, integrate statistical libraries for data analysis, create AI models to automate accounting and financial process. This module will provide you with individual hands-on practices to hone your coding skills and opportunities to develop coding solutions in a team. We utilize R and Python language as the medium of learning because it is one of the most in-demand coding language and its user-friendly syntax is well suited for the beginner level. You will utilise modern development tools to turn information into insights including Keras' Deep Learning model, Google Brain TensorFlow, Hadoop, Spark and Cloud.\nmutually_exclusive: BC3415, BF3222, BF3223"
     },
     {
-        "id": 17,
-        "text": "mutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2001 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Renaissance Engineering (CSC) Year 4\nlevel: 2\nprogram_code: EE"
+        "id": 4,
+        "text": ": 1084\ncode: SC1007\nname: DATA STRUCTURES & ALGORITHMS\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^SCL2^MON^1030-1120^LT7^;LEC/STUDIO^SCL2^FRI^1630-1720^LT4^\ndescription: This course aims to (i) teach the concepts, implementations and applications of data structures such as arrays, linked lists, stacks, queues and trees that are important for building efficient algorithms; (ii) provide an introduction to algorithm analysis and design.  These are essential for future computer science and computer engineering courses.\nmutually_exclusive: CE1007, CE1107, CT2001, CZ1007, CZ1107\nnot_available: EEE, EEEC, ENG(EEE), ENG(NULL), IEEC, IEM\nnot_available_all: (Admyr 2011-2020), (Admyr 2024-2024),\noffered_as_bde: 1\noffered_as_ue: 0\nprerequisite: SC1003\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Engineering Year 1\nlevel: 1\nprogram_code: SC"
+    },
+    {
+        "id": 2,
+        "text": "description: This course is on data science, economics, programming and how they can be used to understand the world around us. It is a complement to econometrics. The focus of this course is to learn practical programming skills for the workplace and future studies in economics and finance. Unlike courses in computer science, data science, or statistics, the emphasis of this course includes both the programming and statistics necessary to analyze data and subsequently interpret results through the lens of economics. This course covers programming and basic scientific computing in Python by re-examining basic economic concepts and models. Students who complete this course will be prepared to work in a data analyst or a data science role with the ability to frame problems in a broader economic context and provide unique insights associated with that context. No prior programming experience is required. Students who complete this module will gain valuable insights into how programming"
     },
     {
         "id": 7,
-        "text": "not_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE2001 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Electrical & Electronic Engineering And Economics Year 3, Electrical & Electronic Engineering Year 3\nlevel: 3\nprogram_code: EE"
+        "text": "description: Various forms of numerical and language data perform vital roles in today's digital economy, across industries like the media, marketing, and education, just to name a few. They provide key insights into human behavior and optimize practical problem-solving and decision-making. Building upon their primary competencies of critical thinking and communication, this course will train future professionals in linguistic and social contexts to analyze, derive, and communicate insights from such data. Students will learn to write basic code in the Python programming language, and implement basic AI, machine learning (e.g. regression, classifi cation, clustering), and Natural Language Processing (NLP) techniques on a wide range of datasets from the aforementioned industries. Ethical issues arising from the rapid growth of (Generative) AI will also be critically discussed. This course does not require a background in programming, data analytics, or statistics.\nmutually_exclusive:"
+    },
+    {
+        "id": 13,
+        "text": ": 665\ncode: HG2051\nname: LANGUAGE & THE COMPUTER\nacademic_units: 3\nexam_schedule: \ncommon_information: SEM^SEM1^THU^0930-1220^LHS-TR+29^\ndescription: Traditionally linguistic analysis was done largely by hand, but computer-based methods and tools are becoming increasingly more widely used in contemporary research. This course provides an introduction to the key instruments and resources available on the personal computer that can assist the linguist in performing fast, flexible and accurate quantitative analyses. Students will learn a scripting language (Python) and use it and the Natural Language Tool Kit (NLTK) to analyse linguistic phenomena. The following topics will be covered in detail:\n\tFile input/output\n\tControl Structures\n\tFrequency Distributions\n\tRegular Expressions\n\tAccess to lexical resources\n\tClassification\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: LMS(SOH)\ngrade_type:"
     },
     {
         "id": 10,
-        "text": "level: 4\nprogram_code: EE"
+        "text": ": 411\ncode: CZ4016\nname: ADVANCED TOPICS IN ALGORITHMS\nacademic_units: 3\nexam_schedule: 2024-11-2717:00-19:00\ncommon_information: LEC/STUDIO^SCL4^FRI^1030-1220^LT8^;TUT^SCEL^THU^0830-0920^LT8^Teaching Wk2-13\ndescription: This course aims to develop your ability to identify key structural components in algorithms, problems and domains alike, and to exploit them to create provably computationally efficient solutions. This course builds on basic skills obtained in the pre-requisite 'Algorithm Design and Analysis' course to provide you with intricate, elegant and actionable algorithmic design patterns; and develop your skill in exploiting salient problem features to facilitate computation. \nAlgorithms and designs presented in this course were at the beginning of multiple disciplines that now dominate the IT industry, and serve as a stepping stone for your further development for such roles as an algorithms engineer/developer or an applied researcher in computer technologies."
+    },
+    {
+        "id": 64,
+        "text": "The scope of this course is confined to the exploration of the life-cycle of typical data products that deploy data-science dominantly or exclusively. We will deconstruct individual components across the full stack: ranging from data acquisition, wrangling and storage, testing, validation, and refinement - spanning exploratory analysis, issues of visualization and presentation, and application of machine learning techniques for decision support, anomaly detection and recommendation systems. We will explore this course with hands-on examples, illustrating how some data products utilize only a subset of these components, while others deploy the wider gamut. \nThis course will also expose techniques to handle various kinds of data on their own and in conjunction, e.g., natural language data, datetime and timeseries, geoseries and graph data; the underlying systems and algorithms to support, analyze and learn using such data to build data products."
+    },
+    {
+        "id": 8,
+        "text": ": 1119\ncode: SC4040\nname: ADVANCED TOPICS IN ALGORITHMS\nacademic_units: 3\nexam_schedule: 2024-11-2717:00-19:00\ncommon_information: LEC/STUDIO^SCL4^FRI^1030-1220^LT8^;TUT^SCEL^THU^0830-0920^LT8^Teaching Wk2-13\ndescription: This course aims to develop your ability to identify key structural components in algorithms, problems and domains alike, and to exploit them to create provably computationally efficient solutions. This course builds on basic skills obtained in the pre-requisite 'Algorithm Design and Analysis' course to provide you with intricate, elegant and actionable algorithmic design patterns; and develop your skill in exploiting salient problem features to facilitate computation. \nAlgorithms and designs presented in this course were at the beginning of multiple disciplines that now dominate the IT industry, and serve as a stepping stone for your further development for such roles as an algorithms engineer/developer or an applied researcher in computer technologies."
+    },
+    {
+        "id": 75,
+        "text": ": 108\ncode: BC2402\nname: DESIGNING & DEVELOPING DATABASES\nacademic_units: 4\nexam_schedule: \ncommon_information: \ndescription: This course introduces participants to design, tools, techniques, and issues concerning the management of data. Data management is the foundation for organizations' business analytics; and for problem solving and decision-making. Participants will analyse a variety of business process, identify data requirements and develop an information system to support business processes and gather information for business analytics. In this course, participants will have an opportunity to apply their design and development competencies by implementing a database solution.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: BUS\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to:"
+    },
+    {
+        "id": 72,
+        "text": ": 988\ncode: MH4510\nname: STATISTICAL LEARNING & DATA MINING\nacademic_units: 4\nexam_schedule: \ncommon_information: TUT^T^FRI^0930-1020^LHS-TR+47^;LAB^LA^MON^1430-1620^COMP LAB 3^\ndescription: This course gives an overall view of the modern statistical/machine learning techniques for mining massive datasets, ranging from generalized linear models, over model selection, to the state-of-the-art techniques like LASSO, neural networks, etc. This course will not only discuss individual algorithms and methods, but also tie principles and approaches together from a theoretical perspective. Moreover, students can gain a hands-on experience through team project. This course equips students with the necessary skills for being a data analyst.\nmutually_exclusive: CZ4041, SC4000\nnot_available: EEE, EEEC, IEEC, IEM\nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: MH2500 & MH3500 & MH3510 & MH3511\ndepartment_maintaining: MATH(SPS)\ngrade_type: \nnot_offered_as_bde_ue_to:"
+    },
+    {
+        "id": 22,
+        "text": "to learn programming languages, such as R and Python. A series of tutorials will cover from the basic to intermediate level coding skills for writing algorithms of machine learning. No prior knowledge of programming is expected."
+    },
+    {
+        "id": 6,
+        "text": ": 267\ncode: CE4016\nname: ADVANCED TOPICS IN ALGORITHMS\nacademic_units: 3\nexam_schedule: 2024-11-2717:00-19:00\ncommon_information: LEC/STUDIO^SCL4^FRI^1030-1220^LT8^;TUT^SCEL^THU^0830-0920^LT8^Teaching Wk2-13\ndescription: This course aims to develop your ability to identify key structural components in algorithms, problems and domains alike, and to exploit them to create provably computationally efficient solutions. This course builds on basic skills obtained in the pre-requisite 'Algorithm Design and Analysis' course to provide you with intricate, elegant and actionable algorithmic design patterns; and develop your skill in exploiting salient problem features to facilitate computation. \nAlgorithms and designs presented in this course were at the beginning of multiple disciplines that now dominate the IT industry, and serve as a stepping stone for your further development for such roles as an algorithms engineer/developer or an applied researcher in computer technologies."
+    },
+    {
+        "id": 15,
+        "text": ": 402\ncode: CZ2101\nname: ALGORITHM DESIGN & ANALYSIS\nacademic_units: 3\nexam_schedule: 2024-11-2313:00-15:00\ncommon_information: LEC/STUDIO^SCL2^MON^1330-1420^ONLINE^;LEC/STUDIO^SCL2^FRI^1630-1720^ONLINE^\ndescription: This course aims to develop your knowledge, understanding and skills about algorithm design and analysis. Upon the successful completion of this course, students shall be able to (i) apply additional analysis techniques in complexity analysis of recursive algorithms; (ii) apply, design and analyse algorithms using a number of approaches to solve various problems like sorting, shortest-path, minimum spanning tree, optimal sequencing for matrix multiplication, the longest common subsequence, string matching.  Students will also learn the concepts of complexity classes P & NP and apply greedy heuristic approach to solve NP-complete problems.\nmutually_exclusive: CE2001, CE2101, CZ2001, SC2001"
+    },
+    {
+        "id": 18,
+        "text": ": 1089\ncode: SC2001\nname: ALGORITHM DESIGN & ANALYSIS\nacademic_units: 3\nexam_schedule: 2024-11-2313:00-15:00\ncommon_information: LEC/STUDIO^SCL2^MON^1330-1420^ONLINE^;LEC/STUDIO^SCL2^FRI^1630-1720^ONLINE^\ndescription: This course aims to develop your knowledge, understanding and skills about algorithm design and analysis. Upon the successful completion of this course, students shall be able to (i) apply additional analysis techniques in complexity analysis of recursive algorithms; (ii) apply, design and analyse algorithms using a number of approaches to solve various problems like sorting, shortest-path, minimum spanning tree, optimal sequencing for matrix multiplication, the longest common subsequence, string matching.  Students will also learn the concepts of complexity classes P & NP and apply greedy heuristic approach to solve NP-complete problems.\nmutually_exclusive: CE2001, CE2101, CZ2001, CZ2101\nnot_available: EEE, EEE 1, EEEC, ENG(EEE), ENG(NULL), IEEC, IEM"
+    },
+    {
+        "id": 9,
+        "text": ": 370\ncode: CV0003\nname: INTRODUCTION TO DATA SCIENCE & ARTIFICIAL INTELLIGENCE\nacademic_units: 3\nexam_schedule: \ncommon_information: \ndescription: In today's era of Information, `Data' is the new driving force, provided we know how to extract relevant `Intelligence'. This course will start with the core principles of Data Science, and will equip you with the basic tool and techniques of data handling, exploratory data analysis, data visualization, data-based inference, and data-focussed communication. The course will also introduce you to the fundamentals of Artificial Intelligence -  state space representation, uninformed search, and reinforcement learning."
+    },
+    {
+        "id": 28,
+        "text": "The Aim: This cryptography course in Computer Science and Engineering aims to develop your ability to understand how cryptographic algorithms work, to identify the problems associated with the application of cryptography in real-world scenarios, and explain the operation of various cryptographic mechanisms. This course will equip you to know deeply the fundamentals of symmetric key ciphers, hash functions and public key ciphers, enabling you to understand and develop secure cryptography solutions in real life cryptography. It will also introduce you to popular cryptographic libraries and APIs for hands-on implementation of security mechanisms, and some prominent cryptographic standards, guidelines and frameworks from the industry and government bodies.\nmutually_exclusive: MH4311\nnot_available: BASA, CMED, COMP, SPPE\nnot_available_all: (Admyr 2011-2020)\noffered_as_bde: 1\noffered_as_ue: 0\nprerequisite: Year 3 standing\ndepartment_maintaining: CSC(CE)\ngrade_type:"
     },
     {
         "id": 11,
-        "text": "level: 4\nprogram_code: EE"
+        "text": ": 1086\ncode: SC1015\nname: INTRODUCTION TO DATA SCIENCE & ARTIFICIAL INTELLIGENCE\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^SCL1^WED^1630-1720^LT10^;LAB^FEL1^MON^1230-1420^HPL^\ndescription: This course will start with the core principles of Data Science, and will equip you with the basic tool and techniques of data handling, exploratory data analysis, data visualization, data-based inference, and data-focussed communication. The course will also introduce you to the fundamentals of Artificial Intelligence - state space representation, uninformed search, and reinforcement learning."
+    },
+    {
+        "id": 26,
+        "text": "The Aim: This cryptography course in Computer Science and Engineering aims to develop your ability to understand how cryptographic algorithms work, to identify the problems associated with the application of cryptography in real-world scenarios, and explain the operation of various cryptographic mechanisms. This course will equip you to know deeply the fundamentals of symmetric key ciphers, hash functions and public key ciphers, enabling you to understand and develop secure cryptography solutions in real life cryptography. It will also introduce you to popular cryptographic libraries and APIs for hands-on implementation of security mechanisms, and some prominent cryptographic standards, guidelines and frameworks from the industry and government bodies.\nmutually_exclusive: CE4010\nnot_available: \nnot_available_all: (Admyr 2021-onwards)\noffered_as_bde: 0\noffered_as_ue: 1\nprerequisite: Year 3 standing\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to:"
+    },
+    {
+        "id": 34,
+        "text": "The Aim: This cryptography course in Computer Science and Engineering aims to develop your ability to understand how cryptographic algorithms work, to identify the problems associated with the application of cryptography in real-world scenarios, and explain the operation of various cryptographic mechanisms. This course will equip you to know deeply the fundamentals of symmetric key ciphers, hash functions and public key ciphers, enabling you to understand and develop secure cryptography solutions in real life cryptography. It will also introduce you to popular cryptographic libraries and APIs for hands-on implementation of security mechanisms, and some prominent cryptographic standards, guidelines and frameworks from the industry and government bodies.\nmutually_exclusive: CZ4010\nnot_available: \nnot_available_all: \noffered_as_bde: 0\noffered_as_ue: 1\nprerequisite: Year 3 standing\ndepartment_maintaining: CE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to:"
+    },
+    {
+        "id": 24,
+        "text": "The aim of this course is hence to take you from having no prior experience of thinking in a computational manner to a point where you can derive simple algorithms and code the programs to solve some basic problems in mathematics and science in general. In addition, the course will include topics to appreciate the internal operations of a processor, and raise awareness of the socio-ethical issues arising from the pervasiveness of computing technology.\nmutually_exclusive: BG2211, CE1003, CE1103, CZ1003, CZ1103, MA1008, MS1008, SC1003\nnot_available: \nnot_available_all: (Admyr 2011-2017)\noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: SPS\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Physics and Applied Physics (APHY) Year 1, Physics and Applied Physics (PPHY) Year 1\nlevel: 10\nprogram_code: PS"
+    },
+    {
+        "id": 39,
+        "text": ": 970\ncode: MH1812\nname: DISCRETE MATHEMATICS\nacademic_units: 3\nexam_schedule: 2024-12-0313:00-15:00\ncommon_information: LEC/STUDIO^SCL1^THU^1730-1820^LT1A^\ndescription: This course serves as an introduction to various topics in discrete mathematics. Familiarity with formal analysis through simple problems in some basic discrete structures is a key objective rather than knowing these structures in depth. Specifically, the main aim is to learn topics from the following broad areas of discrete mathematics: number theory, logic, combinatorics, and graph theory.\nThis course aims to provide students with a solid mathematical foundation and is intended for first year computer science and computer engineering students.\nmutually_exclusive: CE1001, CZ1001, MH1301\nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: MATH(SPS)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to:"
+    },
+    {
+        "id": 14,
+        "text": ": 323\ncode: CS0102\nname: MAKING SENSE OF BIG DATA\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^LE^MON^0930-1220^LF-LT^\ndescription: The aim of this course is to introduce students to the concepts and technologies associated with data analytics. The course will firstly help students understand information technology infrastructure that is fundamental to data analytics. Thereafter, data analytics concepts will be explained including big data, machine learning and artificial intelligence. Techniques for conducting data analytics will also be taught. This course would be of interest to students who would like to understand what data analytics is and its applications.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: CS\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to:"
+    },
+    {
+        "id": 33,
+        "text": ": 340\ncode: CS2405\nname: DATA MINING\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^LE^WED^1030-1320^SCI-MMC^\ndescription: This course covers the principles and techniques of data mining for extracting information from large amounts of numerical data. The information mined from data is often in the form of associations, patterns or specific facts, that can be synthesized to create new knowledge, construct prediction models or used in decision making. The class will be run partly in a project-based/problem-based style. Lab sessions and the class project will provide students with hands-on experience with a data mining software. The approach taken in the course is a how-to-do-it, how-does-it-work and how-to-apply-it kind of approach, to develop the student's common sense ability to manipulate and analyze data intelligently for deriving new knowledge or supporting decision making.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1"
+    },
+    {
+        "id": 65,
+        "text": ": 1001\ncode: MS1008\nname: INTRODUCTION TO COMPUTATIONAL THINKING\nacademic_units: 3\nexam_schedule: \ncommon_information: \ndescription: Overview of Programming Languages. Basic internal operation of computer. Basic program structure: control constructs and data types. CT concept. Limit of computing. Computing Trends. Social-Ethical Issues and Ramifications of Computing.\nmutually_exclusive: BG2211, BS1009, CE1003, CE1103, CH2107, CV1014, CZ1003, CZ1103, EE1005, IE1005, MA1008, PS0001, SC1003\nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: MAT\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: \nlevel: 1\nprogram_code: MS"
+    },
+    {
+        "id": 27,
+        "text": ": 197\ncode: BS0004\nname: INTRODUCTION TO DATA SCIENCE\nacademic_units: 3\nexam_schedule: \ncommon_information: \ndescription: This course aims to introduce you to the field of data science. By the end of this course, you should appreciate how data science contributes towards Singapore's Smart Nation aspirations, potential ethical issues (especially with the use of AI), and its uses in the biological sciences.\nIt is particularly noteworthy that biology is becoming increasingly digitized thanks to advancements in -omics platforms, advanced analytics, the advent of AI and cloud-based mega-data repositories. Hence, the modern biologist needs to understand how data science could potentially make his/her research more effective."
+    },
+    {
+        "id": 70,
+        "text": "The aim of this course is hence to take students with no prior experience of thinking in a computational manner to a point where you can derive simple algorithms and code the programs to solve some basic problems in bioengineering domain.\nmutually_exclusive: BG2111, BS1009, CE1003, CE1103, CH2107, CV1014, CZ1003, CZ1103, EE1005, IE1005, MA1008, MS1008, PS0001, SC1003\nnot_available: \nnot_available_all: (Admyr 2011-2017)-Non Direct Entry, (Admyr 2011-2018)-Direct Entry\noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: MH1810\ndepartment_maintaining: BIE(CBE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Bioengineering And Economics Year 2, Bioengineering Year 2, Renaissance Engineering (BIE) Year 2\nlevel: 2\nprogram_code: BG"
+    },
+    {
+        "id": 58,
+        "text": ": 835\ncode: IE1005\nname: FROM COMPUTATIONAL THINKING TO PROGRAMMING\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^EELE^WED^1630-1820^LKC-LT^Teaching Wk1-8,10-12;LEC/STUDIO^EELE^WED^1630-1820^LT19A^Teaching Wk9\ndescription: Course Overview and Concepts of Computational Thinking.  Overview of Programming Languages. Computers and Programming.  Overview of a Computer Program and Data Types. CT to Programming Concept - Operations and Reusable Functions. CT to Programming Concept - Decision Making and Repetition. CT to Programming Concept - Functions and Decomposition to Smaller Modules. CT to Programming Concept - Advanced Data Structures.  Computing Trends.  Social-Ethical Issues and Ramifications of Computing.\nmutually_exclusive: BG2211, CE1003, CE1103, CV1014, CZ1003, CZ1103, FE1008, MA1008, MS1008, SC1003\nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to:"
+    },
+    {
+        "id": 12,
+        "text": ": 258\ncode: CE2101\nname: ALGORITHM DESIGN & ANALYSIS\nacademic_units: 3\nexam_schedule: 2024-11-2313:00-15:00\ncommon_information: LEC/STUDIO^SCL2^MON^1330-1420^ONLINE^;LEC/STUDIO^SCL2^FRI^1630-1720^ONLINE^;TUT^SCEA^WED^1430-1520^TR+29^Teaching Wk2-13;LAB^SCEA^MON^1430-1620^HWLAB2^Teaching Wk1,3,5,7,9,11,13\ndescription: This course aims to develop your knowledge, understanding and skills about algorithm design and analysis. Upon the successful completion of this course, students shall be able to (i) apply additional analysis techniques in complexity analysis of recursive algorithms; (ii) apply, design and analyse algorithms using a number of approaches to solve various problems like sorting, shortest-path, minimum spanning tree, optimal sequencing for matrix multiplication, the longest common subsequence, string matching.  Students will also learn the concepts of complexity classes P & NP and apply greedy heuristic approach to solve NP-complete problems."
+    },
+    {
+        "id": 66,
+        "text": "The aim of this course is hence to take students with no prior experience of thinking in a computational manner to a point where you can derive simple algorithms and code the programs to solve some basic problems in chemical engineering domain.\nmutually_exclusive: BG2211, CE1003, CE1103, CV1014, CZ1003, CZ1103, MA1008, MS1008, SC1003\nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: CB1117\ndepartment_maintaining: CBE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Renaissance Engineering (CBE) Year 4, Renaissance Engineering (CBE) Year 3, Chemical & Biomolecular Engineering Year 2\nlevel: 2\nprogram_code: CH"
+    },
+    {
+        "id": 44,
+        "text": "Overall, in this course, we will describe several fundamental principles, and we will illustrate them in action using hands-on examples and tools. The choice of algorithms and software packages will be representative but not exhaustive. As such, the detailed description of course content uses 'e.g.,' to give possible indicative instances, but the actual delivery of the course may choose other tools, programming languages, frameworks and examples (including or excluding the indicative instances). Furthermore, the instantiation of tools and examples could vary over time, based on practical considerations, e.g., maturity and popularity of the tools among practitioners. \nThe course will be delivered inter-mixing live lectures and hands-on exercises blended with some parts of the lectures offered in pre-recorded TEL format and curated reading materials.\nmutually_exclusive: \nnot_available: \nnot_available_all: (Admyr 2021-onwards)\noffered_as_bde: 1\noffered_as_ue: 1"
+    },
+    {
+        "id": 36,
+        "text": ": 1066\ncode: PS0001\nname: INTRODUCTION TO COMPUTATIONAL THINKING\nacademic_units: 3\nexam_schedule: \ncommon_information: \ndescription: Computational thinking (CT) is a problem solving process with the aid of computer; i.e. formulating a problem and expressing its solution in such a way that a computer can effectively carry it out. It includes a number of characteristics, such as breaking a problem into small and repetitive ordered steps, logically ordering and analyzing data and creating solutions that can be effectively implemented as algorithms running on computer. As such, computational thinking is essential not only to the Computer Science discipline, it can also be used to support problem solving across all disciplines, including math, science, engineering, business, finance and humanities."
+    },
+    {
+        "id": 53,
+        "text": ": 113\ncode: BC3415\nname: AI IN ACCOUNTING & FINANCE\nacademic_units: 3\nexam_schedule: \ncommon_information: \ndescription: This is an introductory course designed for business or accountancy or Finance undergraduate students who are interested to learn how to manage data, conduct business analytics programmatically, create AI model to automate business processes and create predictive model to increase profitability or return. It is oriented to enhance their technical skillset."
+    },
+    {
+        "id": 48,
+        "text": ": 111\ncode: BC3409\nname: AI IN ACCOUNTING & FINANCE\nacademic_units: 4\nexam_schedule: \ncommon_information: \ndescription: This is an introductory course designed for business or accountancy or Finance undergraduate students who are interested to learn how to manage data, conduct business analytics programmatically, create AI model to automate business processes and create predictive model to increase profitability or return. It is oriented to enhance their technical skillset."
+    },
+    {
+        "id": 49,
+        "text": ": 1082\ncode: SC1005\nname: DIGITAL LOGIC\nacademic_units: 3\nexam_schedule: 2024-11-2214:30-15:30\ncommon_information: LEC/STUDIO^SCL1^MON^0830-0920^ONLINE^;LEC/STUDIO^SCL1^THU^1630-1720^ONLINE^\ndescription: This course aims to develop your ability to analyse and design digital circuits. The design and behaviour of modern digital equipment (e.g. mobile phones and personal computers) are based on functions of binary variables. This course provides you the knowledge to analyse the theoretical characteristics and the skills required for practical technology driven implementations of digital circuits. \nThis course provides an introductory perspective of digital circuits design. It is relevant for anyone pursuing a career in the ICT industry - including those in digital systems, computer architecture and microprocessor based systems design.\nmutually_exclusive: CE1005, CE1105, CZ1005, CZ1105, EE2004, EE2104, IE2104, IM1004"
+    },
+    {
+        "id": 41,
+        "text": ": 401\ncode: CZ2100\nname: PROBABILITY & STATISTICS FOR COMPUTING\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^SCL2^MON^1230-1320^LT1A^;TUT^SCSI^THU^1430-1520^TR+17^Teaching Wk2-13\ndescription: This course aims to develop your foundation in engineering mathematics, particularly in probability and statistics.    \nThis course provides the basic engineering mathematics foundation that is necessary for anyone pursuing a computer science and engineering degree course.\nmutually_exclusive: CE2100, SC2000\nnot_available: BCE, CE, CEEC, DSAI, MACS\nnot_available_all: (Admyr 2011-2019), (Admyr 2021-onwards)\noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: MH1810\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to:"
+    },
+    {
+        "id": 71,
+        "text": "description: With digitalization now becoming the new normal in our daily life, this course seeks to equip students from different disciplines with problem?solving techniques with the aid of computers and to enable them to acquire some common but essential digital skills that are crucial in today's workforce. In this course, students will learn how to apply the concept of computational thinking and quantitative reasoning to solve problems and analyze data. They will also learn how to identify online threats and understand the principles of ethics and intellectual property rights in the digital world. They will also be exposed to current issues in the digital world, which they can better understand through the logic of computational thinking and quantitative reasoning, such as cybersecurity and the rise of fake news. In addition, students will also learn how to use some of the latest online tools for effective presentation, communication, and collaborative skills in teams during the"
+    },
+    {
+        "id": 51,
+        "text": ": 282\ncode: CH2107\nname: INTRODUCTION TO COMPUTATIONAL THINKING\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^LE^THU^1230-1320^LT19^;LEC/STUDIO^LE^MON^1330-1420^LT19^\ndescription: Computational thinking (CT) is a problem solving process with the aid of computer; i.e. formulating a problem and expressing its solution in such a way that a computer can effectively carry it out. It includes a number of characteristics, such as breaking a problem into small and repetitive ordered steps, logically ordering and analyzing data and creating solutions that can be effectively implemented as algorithms running on computer. As such, computational thinking is essential not only to the Computer Science discipline, it can also be used to support problem solving across all disciplines, including math, science, engineering, business, finance and humanities."
+    },
+    {
+        "id": 54,
+        "text": ": 47\ncode: AB1202\nname: STATISTICS & ANALYSIS\nacademic_units: 3\nexam_schedule: \ncommon_information: \ndescription: This course introduces the concepts and methods of statistical inferences: the process of inferring unknowns under uncertainty. Students of this course will also learn programming skills in the R environment for basic statistical analyses."
+    },
+    {
+        "id": 50,
+        "text": ": 157\ncode: BG2211\nname: INTRODUCTION TO COMPUTATIONAL THINKING\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^LE^THU^1230-1320^LT19^;LEC/STUDIO^LE^MON^1330-1420^LT19^\ndescription: Computational thinking (CT) is a problem solving process with the aid of computer; i.e. formulating a problem and expressing its solution in such a way that a computer can effectively carry it out. It includes a number of characteristics, such as breaking a problem into small and repetitive ordered steps, logically ordering and analyzing data and creating solutions that can be effectively implemented as algorithms running on computer. As such, computational thinking is essential not only to the Computer Science discipline, it can also be used to support problem solving across all disciplines, including math, science, engineering, business, finance and humanities."
+    },
+    {
+        "id": 1,
+        "text": ": 363\ncode: CS4313\nname: PROGRAMMING IN PYTHON\nacademic_units: 4\nexam_schedule: \ncommon_information: LEC/STUDIO^LE^FRI^0930-1220^CS-TR+8^\ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: \ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Economics And Media Analytics Year 4, Communication Studies Year 4, Communication Studies Year 3, Psychology And Media Analytics Year 4\nlevel: 4\nprogram_code: CS"
+    },
+    {
+        "id": 57,
+        "text": ": 1088\ncode: SC2000\nname: PROBABILITY & STATISTICS FOR COMPUTING\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^SCL2^FRI^0930-1020^LT19A^;LEC/STUDIO^SCL2^MON^1230-1320^LT1A^\ndescription: This course aims to develop your foundation in engineering mathematics, particularly in probability and statistics.    \nThis course provides the basic engineering mathematics foundation that is necessary for anyone pursuing a computer science and engineering degree course.\nmutually_exclusive: CE2100, CZ2100\nnot_available: EEE, EEE 1, EEEC, ENG(EEE), ENG(NULL), IEEC, IEM\nnot_available_all: (Admyr 2011-2020),\noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: MH1810\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to:"
+    },
+    {
+        "id": 43,
+        "text": ": 1081\ncode: SC1004\nname: LINEAR ALGEBRA FOR COMPUTING\nacademic_units: 4\nexam_schedule: 2024-11-2309:00-11:00\ncommon_information: LEC/STUDIO^SCL1^FRI^0830-1020^ONLINE^;LEC/STUDIO^SCL1^MON^1630-1720^ONLINE^\ndescription: This course aims to support you to learn mathematical concepts related to linear algebra and complex numbers. You will develop set of mathematical skills for applications in computer science and engineering, e.g., machine learning, computer graphics, data science etc.\nmutually_exclusive: CE1004, CE1012, CE1104, CZ1012, CZ1104, MH1200, MH2802\nnot_available: ACDA, DSAI, ECDS, EEE, EEEC, ENG(EEE), ENG(NULL), IEM, MACS, MAEO, MATH, PHY\nnot_available_all: (Admyr 2011-2023),\noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: SC1003(Corequisite)\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Engineering Year 1\nlevel: 1\nprogram_code: SC"
+    },
+    {
+        "id": 35,
+        "text": ": 834\ncode: IE0005\nname: INTRODUCTION TO DATA SCIENCE & ARTIFICIAL INTELLIGENCE\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^EELE^WED^1630-1720^LT25^Teaching Wk1,3,5,6,9-11,13\ndescription: Data-Analytic Thinking. The Data Pipeline. Data Presentation. Data-driven Inference. Data-driven Identification. Digital Storytelling. Artificial Intelligence. Reinforcement Learning and Artificial Intelligence. Ethics in Data Science & Artificial Intelligence. State-of-the-Art in Data Science & Artificial Intelligence.\nmutually_exclusive: CE1015, CE1115, CE4073, CH0494, CZ1015, CZ1016, CZ1115, CZ4073, SC1015\nnot_available: \nnot_available_all: (Admyr 2011-2017)-Non Direct Entry, (Admyr 2011-2018), (Admyr 2011-2018)-Direct Entry\noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: EE1005 OR\ndepartment_maintaining: EEE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to:"
+    },
+    {
+        "id": 52,
+        "text": ": 423\ncode: CZ4125\nname: DEVELOPING DATA PRODUCTS\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^SCL4^WED^1430-1620^TR+95^;TUT^SCEL^WED^1630-1720^TR+95^\ndescription: Data products are products whose principal thrust is to use data to facilitate certain end goals. These products may exhibit varied levels of complexity, spanning from being raw and derived data, intelligence and services derived from or driven by data, enabled by algorithmic and statistical tools such as machine learning. In many data products, the role of data can be subtle and the overall product may be composed of other modules, which could be more prominent in appearance."
+    },
+    {
+        "id": 29,
+        "text": ": 1117\ncode: SC4024\nname: DATA VISUALISATION\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^SCL4^FRI^1430-1620^LT19A^;TUT^SCEL^TUE^1530-1720^LT19A^Teaching Wk2-13\ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: \ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Science And Economics Year 5, Business And Computing Year 4, Mathematical And Computer Sciences Year 4, Data Science & Artificial Intelligence Year 4, Data Science & Artificial Intelligence Year 3, Economics & Data Science Year 3, Computer Science Year 3, Economics & Data Science Year 4, Business And Computing Year 3, Computer Science Year 4\nlevel: 4\nprogram_code: SC"
+    },
+    {
+        "id": 62,
+        "text": ": 1101\ncode: SC3020\nname: DATABASE SYSTEM PRINCIPLES\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^SCL4^FRI^1230-1420^LT1A^;TUT^SCEL^WED^1230-1320^LT1A^Teaching Wk2-13\ndescription: Database management systems (DBMS) are designed to manage large and complex data sets. The fundamentals of the implementation of database management systems must be understood by all Computer Science students. This will help students to develop and design software systems utilizing databases, and equip students with the knowledge of managing data of large scale. Moreover, this should be understood by current and future business leaders so that they can offer strategic guidance based on an informed understanding of database business capabilities. This course provides the basis for achieving this goal.\nmutually_exclusive: CE4031, CZ4031\nnot_available: \nnot_available_all: (Admyr 2011-2020)\noffered_as_bde: 1\noffered_as_ue: 0\nprerequisite: SC2207\ndepartment_maintaining: CSC(CE)\ngrade_type:"
+    },
+    {
+        "id": 90,
+        "text": ": 407\ncode: CZ3006\nname: COMPUTER NETWORK\nacademic_units: 3\nexam_schedule: 2024-11-2909:00-11:00\ncommon_information: LEC/STUDIO^SCL2^TUE^1030-1220^LT19A^\ndescription: This course serves as a foundation for computer and communication networks. Emphasis is placed on concepts, protocols and technologies, which formulate various Local Area Networks (LANs), Wide area Networks (WANs), and their interconnections. Emphasis is also placed on the fundamentals of the Internet, and includes laboratory sessions on socket programming. Advanced materials, such as, cloud computing, will also be covered to prepare you well for your future career.\nmutually_exclusive: CE3005, SC2008\nnot_available: BCE, CE, CEEC\nnot_available_all: (Admyr 2021-onwards)\noffered_as_bde: 0\noffered_as_ue: 1\nprerequisite: CZ1011 & CZ1012 OR\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to:"
+    },
+    {
+        "id": 67,
+        "text": ": 1098\ncode: SC2207\nname: INTRODUCTION TO DATABASES\nacademic_units: 3\nexam_schedule: 2024-12-0209:00-11:00\ncommon_information: LEC/STUDIO^SCL2^THU^1230-1320^LT4^;LEC/STUDIO^SCL2^MON^1630-1720^LT3^\ndescription: Overview of Database Management Systems (DBMS); Entity-Relationship Data Model; Relational Data Model; Functional Dependencies (FD) and Normalization; Relational Algebra; Structured Query Language (SQL); Storage of Relational Data; Indexing Techniques; Query Processing and Optimization; Transaction Management and Concurrency Control\nmutually_exclusive: CZ2007, EE4791, IE4791, IM4791\nnot_available: BCE, BCG\nnot_available_all: (Admyr 2011-2020)\noffered_as_bde: 1\noffered_as_ue: 0\nprerequisite: SC2001(Corequisite) OR\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Mathematical Sciences (BA) Year 4, Mathematical Sciences And Economics (BA) Year 3\nlevel: 2\nprogram_code: SC"
+    },
+    {
+        "id": 60,
+        "text": ": 1109\ncode: SC4000\nname: MACHINE LEARNING\nacademic_units: 3\nexam_schedule: 2024-11-2617:00-19:00\ncommon_information: LEC/STUDIO^SCL4^TUE^1130-1320^LT1^;TUT^SCEL^THU^1430-1520^LT1^Teaching Wk2-13\ndescription: This course introduces basic concepts and methodologies for machine learning as well as their applications. \nClustering.\nDimension Reduction.\nClassification.\nDecision Theory. \nDensity Estimation.\nClassifier Evaluation.\nmutually_exclusive: CE4041, CZ4041, MH4510, SC5002\nnot_available: \nnot_available_all: Yr1,  Yr2, (Admyr 2011-2020)\noffered_as_bde: 1\noffered_as_ue: 0\nprerequisite: Year 3 standing\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: MACS, MAEO(BA), MATH(BA)\nnot_offered_as_core_to: \nnot_offered_as_pe_to:"
+    },
+    {
+        "id": 23,
+        "text": ": 339\ncode: CS2400\nname: FOUNDATION OF INFORMATION ANALYTICS\nacademic_units: 3\nexam_schedule: 2024-11-2214:30-16:30\ncommon_information: LEC/STUDIO^LE^MON^1630-1750^LF-LT^;LEC/STUDIO^LE^TUE^1630-1750^LF-LT^\ndescription: Learning Objective\nThis course will introduce you to the statistical foundations of data science and information analytics for handling of massive databases.  The course covers the statistical concepts required for big data analytics, and introduces you to statistical tests and statistical modeling."
+    },
+    {
+        "id": 84,
+        "text": "offered_as_ue: 0\nprerequisite: SC2207\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Science And Economics Year 5, Accountancy And Data Science & Artificial Intelligence Year 4, Computer Engineering And Economics Year 5, Accountancy And Data Science & Artificial Intelligence Year 3, Renaissance Engineering (CSC) Year 4, Mathematical And Computer Sciences Year 4, Accountancy And Data Science & Artificial Intelligence Year 5, Renaissance Engineering (CE) Year 4, Data Science & Artificial Intelligence Year 4, Data Science & Artificial Intelligence Year 3, Economics & Data Science Year 3, Computer Science Year 3, Computer Engineering Year 4, Economics & Data Science Year 4, Business And Computing Year 3, Computer Science Year 4\nlevel: 3\nprogram_code: SC"
+    },
+    {
+        "id": 95,
+        "text": ": 1090\ncode: SC2002\nname: OBJECT ORIENTED DESIGN & PROGRAMMING\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^SCL2^TUE^0830-0920^LT2A^;LEC/STUDIO^SCL2^FRI^1130-1220^LT1A^\ndescription: The object-oriented paradigm to the design of software is one major successful approach to address complexity and maintainability issues in software systems. We want students to establish an object-oriented mindset and to gain valuable insights into how software can be developed using the object-oriented approach.  This course should not be interpreted to be a pure programming language course.  Rather, the programming language serves to illustrate, via practical examples, the concepts learnt in the course."
+    },
+    {
+        "id": 42,
+        "text": ": 422\ncode: CZ4124\nname: DATA VISUALISATION\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^SCL4^FRI^1430-1620^LT19A^;TUT^SCEL^TUE^1530-1720^LT19A^Teaching Wk2-13\ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: \ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Science And Economics Year 5, Business And Computing Year 4, Data Science & Artificial Intelligence Year 4, Data Science & Artificial Intelligence Year 3, Computer Science Year 3, Computer Science And Economics Year 3, Business And Computing Year 3, Computer Science Year 4, Computer Science And Economics Year 4\nlevel: 4\nprogram_code: CZ"
+    },
+    {
+        "id": 96,
+        "text": "You will learn what this exciting new field is about: how it relates towards Singapore, ethical issues and its application in biological sciences. You will also learn about some of the main themes related to data science, namely algorithms, AI and machine learning, logic, databases and networks.\nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: BS1008 & BS1009\ndepartment_maintaining: BS\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Biological Sciences Year 2, Biological Sciences And Psychology Year 2, Biomedical Sciences And Biobusiness Year 2, Biomedical Sciences Year 2\nlevel: 10\nprogram_code: BS"
+    },
+    {
+        "id": 45,
+        "text": ": 366\ncode: CS4321\nname: DIGITAL INCLUSION & DISABILITY:TECH, INCL. DES & SOC FUTURES\nacademic_units: 4\nexam_schedule: \ncommon_information: LEC/STUDIO^LE^WED^1030-1320^CS-TR+9^\ndescription: This upper-level undergraduate course offers a cutting-edge case study of digital technology, inclusion, design and innovation in social life. It provides a state-of-the-art knowledge of the dynamic new area of disability and accessibility, showcasing powerful insights into what social inclusion and participation means in contemporary digital societies internationally. Exploring a range of emerging technologies from Internet, social media and media to driverless cars, AI, Internet of Things, and smart cities, this interdisciplinary course will equip students with theoretical, practical understanding of digital inclusion, and where it fits into technology and society.\nmutually_exclusive: \nnot_available: \nnot_available_all: Yr1\noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite:"
+    },
+    {
+        "id": 25,
+        "text": ": 415\ncode: CZ4032\nname: DATA ANALYTICS & MINING\nacademic_units: 3\nexam_schedule: 2024-11-2517:00-19:00\ncommon_information: LEC/STUDIO^SCL4^MON^1330-1520^LT19A^;TUT^SCEL^FRI^1630-1720^LT19A^Teaching Wk2-13\ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: \ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Science And Economics Year 5, Renaissance Engineering (CSC) Year 4, Mathematical And Computer Sciences Year 4, Data Science & Artificial Intelligence Year 4, Data Science & Artificial Intelligence Year 3, Renaissance Engineering (EEE) Year 4, Business And Computing Year 3, Computer Science Year 4, Computer Science And Economics Year 4\nlevel: 4\nprogram_code: CZ"
+    },
+    {
+        "id": 30,
+        "text": ": 1116\ncode: SC4020\nname: DATA ANALYTICS & MINING\nacademic_units: 3\nexam_schedule: 2024-11-2517:00-19:00\ncommon_information: LEC/STUDIO^SCL4^MON^1330-1520^LT19A^;TUT^SCEL^FRI^1630-1720^LT19A^Teaching Wk2-13\ndescription: \nmutually_exclusive: CE4032, CE9010, CZ4032, SC5010\nnot_available: \nnot_available_all: Yr1,  Yr2, (Admyr 2011-2020)\noffered_as_bde: 1\noffered_as_ue: 0\nprerequisite: Year 3 standing\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to:"
+    },
+    {
+        "id": 73,
+        "text": ": 350\ncode: CS4050\nname: BAYESIAN DATA ANALYSIS & ITS APPLICATIONS\nacademic_units: 4\nexam_schedule: \ncommon_information: LEC/STUDIO^LE^THU^1430-1520^CS-TR+8^;TUT^T1^THU^1530-1720^CS-TR+8^Teaching Wk2-13"
+    },
+    {
+        "id": 68,
+        "text": ": 271\ncode: CE4032\nname: DATA ANALYTICS & MINING\nacademic_units: 3\nexam_schedule: 2024-11-2517:00-19:00\ncommon_information: LEC/STUDIO^SCL4^MON^1330-1520^LT19A^;TUT^SCEL^FRI^1630-1720^LT19A^Teaching Wk2-13\ndescription: \nmutually_exclusive: CE9010, CZ4032, SC4020, SC5010\nnot_available: \nnot_available_all: (Admyr 2021-onwards)\noffered_as_bde: 0\noffered_as_ue: 1\nprerequisite: CE2001 OR\ndepartment_maintaining: CE\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Engineering And Economics Year 4, Computer Engineering And Economics Year 5, Computer Engineering Year 4, Renaissance Engineering (CE) Year 4\nlevel: 4\nprogram_code: CE"
+    },
+    {
+        "id": 61,
+        "text": ": 1122\ncode: SC4242\nname: COMPILER TECHNIQUES\nacademic_units: 3\nexam_schedule: 2024-11-2914:30-16:30\ncommon_information: LEC/STUDIO^SCL4^WED^0830-0920^LT10^;LEC/STUDIO^SCL4^THU^1330-1420^LT13^;TUT^SCEL^TUE^0930-1020^LT10^Teaching Wk2-13\ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: (Admyr 2011-2020)\noffered_as_bde: 1\noffered_as_ue: 0\nprerequisite: SC2001 & SC2006\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Renaissance Engineering (CSC) Year 4, Data Science & Artificial Intelligence Year 4, Data Science & Artificial Intelligence Year 3, Computer Science Year 3, Computer Science Year 4\nlevel: 4\nprogram_code: SC"
+    },
+    {
+        "id": 38,
+        "text": "As a student of this course, you will learn essential object-oriented concepts such as encapsulation, the separation of design from implementation, the use of inheritance and polymorphism. Finally, you will also learn good design principles for reuse, and to realise these principles using object-oriented programming languages such as Java and/or C++.\nmutually_exclusive: SC2002\nnot_available: BCE, CE, CEEC, EEE, EEEC, IEEC, IEM, REP(CE)\nnot_available_all: (Admyr 2021-onwards)-Non Direct Entry, (Admyr 2022-onwards)-Direct Entry,\noffered_as_bde: 0\noffered_as_ue: 1\nprerequisite: CZ1007 OR\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: REP(ASEN), REP(BIE), REP(CBE), REP(CVEN), REP(EEE), REP(ENE), REP(MAT), REP(ME)\nprogram_list: Accountancy And Data Science & Artificial Intelligence Year 3, Renaissance Engineering (ME) Year 4, Renaissance Engineering (MAT) Year 4, Renaissance Engineering (CBE) Year 4\nlevel: 2"
+    },
+    {
+        "id": 37,
+        "text": ": 393\ncode: CZ1103\nname: INTRODUCTION TO COMPUTATIONAL THINKING & PROGRAMMING\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^FTAM^WED^1530-1720^TRX44^;LEC/STUDIO^FTAM^MON^1830-2120^TR+3^;TUT^FTAM^FRI^1530-1720^LT23^\ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: \ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: \nlevel: 1\nprogram_code: CZ"
+    },
+    {
+        "id": 99,
+        "text": "offered_as_ue: 0\nprerequisite: SC1007 & SC1015 & SC2000 OR\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Renaissance Engineering (CE) Year 3, Accountancy And Data Science & Artificial Intelligence Year 4, Accountancy And Data Science & Artificial Intelligence Year 3, Renaissance Engineering (CSC) Year 4, Renaissance Engineering (CE) Year 4, Data Science & Artificial Intelligence Year 3, Computer Science Year 3, Business And Computing Year 3, Computer Engineering Year 3, Computer Science Year 4, Renaissance Engineering (CSC) Year 3\nlevel: 3\nprogram_code: SC"
+    },
+    {
+        "id": 80,
+        "text": ": 984\ncode: MH4300\nname: COMBINATORICS\nacademic_units: 4\nexam_schedule: 2024-11-2909:00-11:00\ncommon_information: LEC/STUDIO^LE^THU^1030-1220^SPMS-TR+18^;LEC/STUDIO^LE^FRI^1030-1120^SPMS-TR+18^;TUT^T^FRI^1130-1220^SPMS-TR+18^Teaching Wk2-13\ndescription: This final year mathematics course aims to equip you to apply concepts in symbolic methods and analysis to solve a variety of problems in combinatorics. The tools developed in the course are useful for future graduate courses in mathematics, applied mathematics and engineering.\n\nCourse Content"
+    },
+    {
+        "id": 20,
+        "text": ": 1080\ncode: SC1003\nname: INTRODUCTION TO COMPUTATIONAL THINKING & PROGRAMMING\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^SCL1^MON^0930-1020^ONLINE^\ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: \ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Engineering Year 1\nlevel: 1\nprogram_code: SC"
+    },
+    {
+        "id": 76,
+        "text": ": 418\ncode: CZ4045\nname: NATURAL LANGUAGE PROCESSING\nacademic_units: 3\nexam_schedule: 2024-11-2509:00-11:00\ncommon_information: LEC/STUDIO^SCL4^WED^0930-1120^LT27^;TUT^SCEL^WED^1130-1220^LT27^Teaching Wk2-13\ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: \ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Science And Economics Year 5, Renaissance Engineering (CSC) Year 4, Mathematical And Computer Sciences Year 4, Data Science & Artificial Intelligence Year 4, Data Science & Artificial Intelligence Year 3, Renaissance Engineering (EEE) Year 4, Renaissance Engineering (ME) Year 4, Business And Computing Year 3, Computer Science Year 4, Computer Science And Economics Year 4\nlevel: 4\nprogram_code: CZ"
+    },
+    {
+        "id": 40,
+        "text": ": 908\ncode: MA0218\nname: INTRODUCTION TO DATA SCIENCE & ARTIFICIAL INTELLIGENCE\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^LE^FRI^0930-1020^LT27^Teaching Wk6;LEC/STUDIO^LE^FRI^0930-1020^LT2A^Teaching Wk1-5,7-13\ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: \ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Aerospace Engineering Year 2\nlevel: 10\nprogram_code: MA"
+    },
+    {
+        "id": 98,
+        "text": ": 1100\ncode: SC3010\nname: COMPUTER SECURITY\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^SCL4^TUE^0830-1020^LT19A^;TUT^SCEL^MON^0930-1020^LT1^Teaching Wk2-13\ndescription: This course aims to equip you with foundational knowledge on many important security issues and techniques required for cyber security.\nYou will have the knowledge of different security policies and security models, and have the ability to recognise security features and discover pitfalls in computing systems, including the operating system and software.\nmutually_exclusive: CE4062, CZ4062\nnot_available: BSB\nnot_available_all: (Admyr 2011-2020)\noffered_as_bde: 1\noffered_as_ue: 0\nprerequisite: SC2005\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to:"
+    },
+    {
+        "id": 97,
+        "text": ": 1083\ncode: SC1006\nname: COMPUTER ORGANISATION & ARCHITECTURE\nacademic_units: 3\nexam_schedule: 2024-11-2713:00-14:00\ncommon_information: LEC/STUDIO^SCL2^FRI^1230-1320^LT4^;LEC/STUDIO^SCL2^MON^1530-1620^LT4^\ndescription: Computer Hardware Decomposition; Solid-state memory subsystems; Magnetic memory; Input/Output techniques; The central processor unit; How high level code is `executed?; Quantifying and comparing performance;  Computer arithmetic; Towards higher speed.\nmutually_exclusive: CE1006, CE1106, CZ1006, CZ1106\nnot_available: EEE, EEE 1, EEEC, ENG(EEE), ENG(NULL), IEEC, IEM\nnot_available_all: (Admyr 2011-2020),\noffered_as_bde: 1\noffered_as_ue: 0\nprerequisite: SC1005(Corequisite)\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Engineering Year 1\nlevel: 1\nprogram_code: SC"
+    },
+    {
+        "id": 31,
+        "text": ": 416\ncode: CZ4041\nname: MACHINE LEARNING\nacademic_units: 3\nexam_schedule: 2024-11-2617:00-19:00\ncommon_information: LEC/STUDIO^SCL4^TUE^1130-1320^LT1^;TUT^SCEL^THU^1430-1520^LT1^Teaching Wk2-13\ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: \ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Science And Economics Year 5, Business And Computing Year 4, Renaissance Engineering (CSC) Year 4, Mathematical And Computer Sciences Year 4, Mathematical Sciences (BA) Year 4, Data Science & Artificial Intelligence Year 4, Data Science & Artificial Intelligence Year 3, Mathematical Sciences And Economics (BA) Year 3, Computer Science Year 3, Computer Science And Economics Year 3, Business And Computing Year 3, Computer Science Year 4, Computer Science And Economics Year 4, Mathematical Sciences (BA) Year 3\nlevel: 4\nprogram_code: CZ"
+    },
+    {
+        "id": 59,
+        "text": "As a student of this course, you will learn essential object-oriented concepts such as encapsulation, the separation of design from implementation, the use of inheritance and polymorphism. Finally, you will also learn good design principles for reuse, and to realise these principles using object-oriented programming languages such as Java and/or C++.\nmutually_exclusive: CE2002, CZ2002\nnot_available: EEE, EEEC, ENG(EEE), ENG(NULL), IEEC, IEM\nnot_available_all: (Admyr 2011-2020), (Admyr 2024-2024),\noffered_as_bde: 1\noffered_as_ue: 0\nprerequisite: SC1003 OR\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: \nlevel: 2\nprogram_code: SC"
+    },
+    {
+        "id": 69,
+        "text": ": 408\ncode: CZ3007\nname: COMPILER TECHNIQUES\nacademic_units: 3\nexam_schedule: 2024-11-2914:30-16:30\ncommon_information: LEC/STUDIO^SCL4^WED^0830-0920^LT10^;LEC/STUDIO^SCL4^THU^1330-1420^LT13^;TUT^SCEL^TUE^0930-1020^LT10^Teaching Wk2-13\ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: (Admyr 2021-onwards)\noffered_as_bde: 0\noffered_as_ue: 1\nprerequisite: CZ2001 & CZ2006 OR\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Science And Economics Year 5, Business And Computing Year 4, Renaissance Engineering (CSC) Year 4, Renaissance Engineering (CSC) Year 3, Computer Engineering And Economics Year 4, Computer Science Year 3, Computer Science And Economics Year 3, Business And Computing Year 3, Computer Science Year 4, Computer Science And Economics Year 4, Computer Engineering And Economics Year 3\nlevel: 3\nprogram_code: CZ"
+    },
+    {
+        "id": 63,
+        "text": ": 1111\ncode: SC4002\nname: NATURAL LANGUAGE PROCESSING\nacademic_units: 3\nexam_schedule: 2024-11-2509:00-11:00\ncommon_information: LEC/STUDIO^SCL4^WED^0930-1120^LT27^;TUT^SCEL^WED^1130-1220^LT27^Teaching Wk2-13\ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: \ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Science And Economics Year 5, Renaissance Engineering (CSC) Year 4, Mathematical And Computer Sciences Year 4, Renaissance Engineering (CE) Year 4, Data Science & Artificial Intelligence Year 4, Data Science & Artificial Intelligence Year 3, Computer Science Year 3, Computer Engineering Year 4, Renaissance Engineering (EEE) Year 4, Business And Computing Year 3, Computer Engineering Year 3, Computer Science Year 4\nlevel: 4\nprogram_code: SC"
+    },
+    {
+        "id": 92,
+        "text": ": 406\ncode: CZ3005\nname: ARTIFICIAL INTELLIGENCE\nacademic_units: 3\nexam_schedule: 2024-11-2513:00-15:00\ncommon_information: LEC/STUDIO^SCL3^MON^1030-1120^LT19^;LEC/STUDIO^SCL3^TUE^1230-1320^LT1A^\ndescription: Computer / software engineers are involved in effective and efficient building of knowledge agent systems that satisfy the requirements of users; possibly software for intelligent embedded and intelligent information systems. General awareness of theory, knowledge, and practice in all phases of the knowledge based systems and representation techniques for problem solving are necessary for those of you who wants to get into the field artificial intelligence. These are advanced intelligent systems that are finding widespread applications in finance, banking, manufacturing industries.\nmutually_exclusive: SC3000\nnot_available: \nnot_available_all: (Admyr 2021-onwards)\noffered_as_bde: 0\noffered_as_ue: 1\nprerequisite: CZ1003 & CZ2001 OR\ndepartment_maintaining: CSC(CE)\ngrade_type:"
+    },
+    {
+        "id": 79,
+        "text": ": 421\ncode: CZ4070\nname: CYBER THREAT INTELLIGENCE\nacademic_units: 3\nexam_schedule: \ncommon_information: LEC/STUDIO^SCL4^MON^1030-1220^LT6^;TUT^SCEL^MON^1230-1320^LT4^Teaching Wk2-13\ndescription: This course aims to introduce Cyber Threat Intelligence as a concept and teach students the approach and different techniques for managing and processing Cyber Threat Intelligence - from collections to prioritization of assets and to better leverage tactical, operational, and strategic-level threat intelligence as well as to better comprehend, synthesize, and leverage cyber threat intelligence to respond to different cyber situations.\nmutually_exclusive: CE4070, SC4016\nnot_available: BCE, CE, CEEC, REP(CE)\nnot_available_all: Yr1,  Yr2, (Admyr 2021-onwards)\noffered_as_bde: 0\noffered_as_ue: 1\nprerequisite: Study Year 3 standing\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to:"
+    },
+    {
+        "id": 56,
+        "text": "not_available: \nnot_available_all: (Admyr 2021-onwards)\noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: Study Year 3 standing\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Data Science & Artificial Intelligence Year 3, Data Science & Artificial Intelligence Year 4\nlevel: 4\nprogram_code: CZ"
+    },
+    {
+        "id": 46,
+        "text": ": 43\ncode: AB0403\nname: DECISION MAKING WITH PROGRAMMING & ANALYTICS\nacademic_units: 3\nexam_schedule: 2024-12-0213:00-14:30\ncommon_information: \ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: \ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to:"
+    },
+    {
+        "id": 47,
+        "text": ": 109\ncode: BC2406\nname: ANALYTICS I: VISUAL & PREDICTIVE TECHNIQUES\nacademic_units: 4\nexam_schedule: \ncommon_information:"
+    },
+    {
+        "id": 83,
+        "text": ": 417\ncode: CZ4042\nname: NEURAL NETWORK & DEEP LEARNING\nacademic_units: 3\nexam_schedule: 2024-11-2313:00-15:00\ncommon_information: LEC/STUDIO^SCL4^FRI^1230-1420^LT1^Teaching Wk6;LEC/STUDIO^SCL4^FRI^1230-1420^LT2A^Teaching Wk1-5,7-13;TUT^SCEL^WED^1730-1820^LT2A^Teaching Wk2-13\ndescription: \nmutually_exclusive: \nnot_available: \nnot_available_all: \noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: \ndepartment_maintaining: \ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to:"
+    },
+    {
+        "id": 74,
+        "text": "prerequisite: SC1006\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Business And Computer Engineering Year 4, Computer Engineering Year 3, Computer Engineering And Economics Year 5, Computer Engineering Year 4\nlevel: 2\nprogram_code: SC"
+    },
+    {
+        "id": 94,
+        "text": "not_available_all: (Admyr 2011-2020),\noffered_as_bde: 1\noffered_as_ue: 1\nprerequisite: SC1004\ndepartment_maintaining: CSC(CE)\ngrade_type: \nnot_offered_as_bde_ue_to: \nnot_offered_as_core_to: \nnot_offered_as_pe_to: \nprogram_list: Computer Engineering Year 3\nlevel: 3\nprogram_code: SC"
+    },
+    {
+        "id": 77,
+        "text": "level: 3\nprogram_code: AC"
+    },
+    {
+        "id": 78,
+        "text": "level: 3\nprogram_code: AC"
+    },
+    {
+        "id": 55,
+        "text": "level: 2\nprogram_code: BS"
+    },
+    {
+        "id": 17,
+        "text": "level: 4\nprogram_code: CS"
+    },
+    {
+        "id": 93,
+        "text": "level: 10\nprogram_code: GC"
+    },
+    {
+        "id": 32,
+        "text": "level: 1\nprogram_code: BS"
+    },
+    {
+        "id": 91,
+        "text": "level: 3\nprogram_code: CV"
+    },
+    {
+        "id": 81,
+        "text": "level: 10\nprogram_code: HW"
+    },
+    {
+        "id": 82,
+        "text": "level: 10\nprogram_code: HW"
+    },
+    {
+        "id": 85,
+        "text": "level: 10\nprogram_code: CC"
+    },
+    {
+        "id": 86,
+        "text": "level: 10\nprogram_code: CC"
+    },
+    {
+        "id": 87,
+        "text": "level: 10\nprogram_code: CC"
+    },
+    {
+        "id": 88,
+        "text": "level: 10\nprogram_code: CC"
+    },
+    {
+        "id": 89,
+        "text": "level: 10\nprogram_code: CC"
+    },
+    {
+        "id": 16,
+        "text": "level: 10\nprogram_code: CS"
     }
 ]

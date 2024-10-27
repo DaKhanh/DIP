@@ -84,7 +84,7 @@ def chat_with_llm_chain(question):
     print(f"Extracted keywords: {keywords}")  
 
     retriever = vector_store.as_retriever(search_type="similarity", 
-                                          search_kwargs={'k': 20})
+                                          search_kwargs={'k': 100})
     initial_docs = retriever.invoke(keywords)
     
     # print(f"Retrieved documents: {doc}")  
@@ -127,7 +127,10 @@ def chat_with_llm_chain(question):
     with open(reranked_results_path, 'w') as json_file:
         json.dump(reranked_docs, json_file, indent=4)
     print(f"Saved JSON file to {reranked_results_path}")
-        
+
+    # limit the number of documents to 10 to avoid long prompts
+    top_10_reranked_docs = reranked_docs[:10]
+    
     context_documents = "\n\n".join([doc["text"] for doc in reranked_docs])
     print(f"join time: {time.time() - start_time}")
     if not context_documents:
