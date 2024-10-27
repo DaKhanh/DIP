@@ -20,9 +20,11 @@ import time
 
 load_dotenv()
 
-openai_api_key = os.getenv('OPENAI_API_KEY')
-if not openai_api_key:
-    raise ValueError("Missing OpenAI API key")
+def get_openai_api_key():
+    openai_api_key = os.getenv('OPENAI_API_KEY')
+    if not openai_api_key:
+        raise ValueError("Missing OpenAI API key")
+    return openai_api_key
 
 index = faiss.read_index("D:\\dip_all\\app\\data\\faiss_index.index")
 with open("D:\\dip_all\\app\\data\\faiss_docstore.pkl", "rb") as f:
@@ -30,7 +32,7 @@ with open("D:\\dip_all\\app\\data\\faiss_docstore.pkl", "rb") as f:
 with open("D:\\dip_all\\app\\data\\faiss_id_map.pkl", "rb") as f:
     index_to_docstore_id = pickle.load(f)
 
-embeddings = OpenAIEmbeddings(model="text-embedding-3-large", openai_api_key=openai_api_key)
+embeddings = OpenAIEmbeddings(model="text-embedding-3-large", openai_api_key=get_openai_api_key())
 vector_store = FAISS(
     embedding_function=embeddings,
     index=index,
@@ -41,7 +43,7 @@ vector_store = FAISS(
 print(f"Loaded FAISS index with {index.ntotal} documents.")
 
 llm = ChatOpenAI(
-    openai_api_key=openai_api_key,
+    openai_api_key=get_openai_api_key(),
     model="gpt-3.5-turbo",
     temperature=0,  
     max_tokens=1400  
@@ -139,7 +141,7 @@ def chat_with_llm_chain(question):
     #     context = f"Documents: {context_documents}\n\nQuestion: {question}"
     # else:
     #     context = f"General question: {question}"
-    
+
     context = f"Documents: {context_documents}\n\nQuestion: {question}"
 
     # save the prompt to a file

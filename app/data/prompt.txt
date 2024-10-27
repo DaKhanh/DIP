@@ -1,45 +1,11 @@
 Prompt:
-Documents: : 839
-code: IE2108
-name: DATA STRUCTURES & ALGORITHMS IN PYTHON
+Documents: : 113
+code: BC3415
+name: AI IN ACCOUNTING & FINANCE
 academic_units: 3
-exam_schedule: 2024-11-2613:00-15:00
-common_information: LEC/STUDIO^EELE^MON^0930-1050^LT22^
-description: This course aims to give a systematic introduction to data structures and algorithms for constructing efficient computer programs based on Python. Principles of algorithmic analysis will be studied.  
-Emphasis is on data structures and efficient algorithms in the program development process, covering abstract data types, trees, graphs, sorting, and searching. The greedy technique such as Kruskal's algorithm and Dijkstra's algorithm will be introduced. AI algorithms such as classification will also be discussed. Theories will be practiced during tutorial sessions and students will gain substantial Python programming experience.
-mutually_exclusive: 
-not_available: REP(ASEN), REP(BIE), REP(CBE), REP(CE), REP(CSC), REP(CVEN), REP(ENE), REP(MAT), REP(ME)
-not_available_all: 
-offered_as_bde: 1
-
-The course will motivate you to work closely with data and make data-driven decisions in your field of study. The course will also touch upon ethical issues in Data Science and Artificial Intelligence, and motivate you to explore the cutting-edge applications related to Big Data, Neural Networks and Deep Learning. Python will be the language of choice to introduce hands-on computational techniques.
-mutually_exclusive: CB0494, CE1015, CE1115, CE4073, CH0494, CV0003, CZ1015, CZ1016, CZ1115, CZ4073, EE0005, IE0005, MA0218, MS0003, PS0002
-not_available: 
-not_available_all: (Admyr 2011-2020)
-offered_as_bde: 1
-offered_as_ue: 1
-prerequisite: SC1003
-department_maintaining: CSC(CE)
-grade_type: 
-not_offered_as_bde_ue_to: 
-not_offered_as_core_to: 
-not_offered_as_pe_to: 
-program_list: Computer Engineering Year 1
-level: 1
-program_code: SC
-
-The course will motivate you to work closely with data and make data-driven decisions in your field of study. The course will also touch upon ethical issues in Data Science and Artificial Intelligence, and motivate you to explore the cutting-edge applications related to Big Data, Neural Networks and Deep Learning. Python will be the language of choice to introduce hands-on computational techniques.
-mutually_exclusive: CE1015, CE1115, CE4073, CH0494, CZ1015, CZ1016, CZ1115, CZ4073, MA0218, MS0003, SC1015
-not_available: 
-not_available_all: (Admyr 2011-2017)-Non Direct Entry, (Admyr 2011-2018)-Direct Entry
-offered_as_bde: 1
-offered_as_ue: 1
-prerequisite: CV1014
-department_maintaining: CEE
-grade_type: 
-not_offered_as_bde_ue_to: 
-not_offered_as_core_to: 
-not_offered_as_pe_to:
+exam_schedule: 
+common_information: 
+description: This is an introductory course designed for business or accountancy or Finance undergraduate students who are interested to learn how to manage data, conduct business analytics programmatically, create AI model to automate business processes and create predictive model to increase profitability or return. It is oriented to enhance their technical skillset.
 
 The aim of this course is to provide a broad understanding on how to manage data, the process of preparing data for analysis, basics of analytics, using AI to automate financial analysis process and generate accounting reports. This course will equip you with the ability to write customized solutions to make informed business decisions, integrate statistical libraries for data analysis, create AI models to automate accounting and financial process. This module will provide you with individual hands-on practices to hone your coding skills and opportunities to develop coding solutions in a team. We utilize R and Python language as the medium of learning because it is one of the most in-demand coding language and its user-friendly syntax is well suited for the beginner level. You will utilise modern development tools to turn information into insights including Keras' Deep Learning model, Google Brain TensorFlow, Hadoop, Spark and Cloud.
 mutually_exclusive: BC3409, BF3223
@@ -48,62 +14,49 @@ not_available:
 The aim of this course is to provide a broad understanding on how to manage data, the process of preparing data for analysis, basics of analytics, using AI to automate financial analysis process and generate accounting reports. This course will equip you with the ability to write customized solutions to make informed business decisions, integrate statistical libraries for data analysis, create AI models to automate accounting and financial process. This module will provide you with individual hands-on practices to hone your coding skills and opportunities to develop coding solutions in a team. We utilize R and Python language as the medium of learning because it is one of the most in-demand coding language and its user-friendly syntax is well suited for the beginner level. You will utilise modern development tools to turn information into insights including Keras' Deep Learning model, Google Brain TensorFlow, Hadoop, Spark and Cloud.
 mutually_exclusive: BC3415, BF3222, BF3223
 
-: 1084
-code: SC1007
-name: DATA STRUCTURES & ALGORITHMS
+description: The course "Text and Image Studies on AIGC (Artificial Intelligence Generated Content)" is aimed at providing an immersive and comprehensive understanding of the interplay between artificial intelligence, text, and imagery. This course is particularly designed for you, students who are eager to delve into the evolving world of AI-generated content, whether you're from humanities, arts, or related fields. The purpose of this course is to equip you with a deep understanding of how AI technologies are being utilized to create and interpret text and images, enhancing both your theoretical knowledge and practical skills. You will be encouraged to explore and analyze AI-generated content, understand the tools and technologies behind it, and critically evaluate their impact on society and culture. This course is invaluable for your future career prospects, as it prepares you to navigate and contribute effectively in fields increasingly influenced by AI. Whether you aspire to a
+
+: 111
+code: BC3409
+name: AI IN ACCOUNTING & FINANCE
+academic_units: 4
+exam_schedule: 
+common_information: 
+description: This is an introductory course designed for business or accountancy or Finance undergraduate students who are interested to learn how to manage data, conduct business analytics programmatically, create AI model to automate business processes and create predictive model to increase profitability or return. It is oriented to enhance their technical skillset.
+
+and contribute effectively in fields increasingly influenced by AI. Whether you aspire to a career in creative industries, technology sectors, academia, or any field where digital literacy and AI understanding are crucial, this course will provide you with a unique blend of skills and insights. You will come away not only with practical abilities in using AI for creative and analytical purposes but also with a critical awareness of the ethical and societal dimensions of this rapidly advancing technology.
+
+: 197
+code: BS0004
+name: INTRODUCTION TO DATA SCIENCE
 academic_units: 3
 exam_schedule: 
-common_information: LEC/STUDIO^SCL2^MON^1030-1120^LT7^;LEC/STUDIO^SCL2^FRI^1630-1720^LT4^
-description: This course aims to (i) teach the concepts, implementations and applications of data structures such as arrays, linked lists, stacks, queues and trees that are important for building efficient algorithms; (ii) provide an introduction to algorithm analysis and design.  These are essential for future computer science and computer engineering courses.
-mutually_exclusive: CE1007, CE1107, CT2001, CZ1007, CZ1107
-not_available: EEE, EEEC, ENG(EEE), ENG(NULL), IEEC, IEM
-not_available_all: (Admyr 2011-2020), (Admyr 2024-2024),
-offered_as_bde: 1
-offered_as_ue: 0
-prerequisite: SC1003
-department_maintaining: CSC(CE)
-grade_type: 
-not_offered_as_bde_ue_to: 
-not_offered_as_core_to: 
-not_offered_as_pe_to: 
-program_list: Computer Engineering Year 1
-level: 1
-program_code: SC
+common_information: 
+description: This course aims to introduce you to the field of data science. By the end of this course, you should appreciate how data science contributes towards Singapore's Smart Nation aspirations, potential ethical issues (especially with the use of AI), and its uses in the biological sciences.
+It is particularly noteworthy that biology is becoming increasingly digitized thanks to advancements in -omics platforms, advanced analytics, the advent of AI and cloud-based mega-data repositories. Hence, the modern biologist needs to understand how data science could potentially make his/her research more effective.
 
-description: This course is on data science, economics, programming and how they can be used to understand the world around us. It is a complement to econometrics. The focus of this course is to learn practical programming skills for the workplace and future studies in economics and finance. Unlike courses in computer science, data science, or statistics, the emphasis of this course includes both the programming and statistics necessary to analyze data and subsequently interpret results through the lens of economics. This course covers programming and basic scientific computing in Python by re-examining basic economic concepts and models. Students who complete this course will be prepared to work in a data analyst or a data science role with the ability to frame problems in a broader economic context and provide unique insights associated with that context. No prior programming experience is required. Students who complete this module will gain valuable insights into how programming
-
-description: Various forms of numerical and language data perform vital roles in today's digital economy, across industries like the media, marketing, and education, just to name a few. They provide key insights into human behavior and optimize practical problem-solving and decision-making. Building upon their primary competencies of critical thinking and communication, this course will train future professionals in linguistic and social contexts to analyze, derive, and communicate insights from such data. Students will learn to write basic code in the Python programming language, and implement basic AI, machine learning (e.g. regression, classifi cation, clustering), and Natural Language Processing (NLP) techniques on a wide range of datasets from the aforementioned industries. Ethical issues arising from the rapid growth of (Generative) AI will also be critically discussed. This course does not require a background in programming, data analytics, or statistics.
-mutually_exclusive:
-
-: 665
-code: HG2051
-name: LANGUAGE & THE COMPUTER
+: 899
+code: LR5003
+name: RUSSIAN LANGUAGE LEVEL 3
 academic_units: 3
 exam_schedule: 
-common_information: SEM^SEM1^THU^0930-1220^LHS-TR+29^
-description: Traditionally linguistic analysis was done largely by hand, but computer-based methods and tools are becoming increasingly more widely used in contemporary research. This course provides an introduction to the key instruments and resources available on the personal computer that can assist the linguist in performing fast, flexible and accurate quantitative analyses. Students will learn a scripting language (Python) and use it and the Natural Language Tool Kit (NLTK) to analyse linguistic phenomena. The following topics will be covered in detail:
-	File input/output
-	Control Structures
-	Frequency Distributions
-	Regular Expressions
-	Access to lexical resources
-	Classification
+common_information: TUT^T01^THU^1630-1820^TR+77^Teaching Wk2-13;TUT^T01^TUE^1630-1820^TR+77^Teaching Wk2-13
+description: The course aims to build on language skills and cultural knowledge acquired either through the beginners' courses (LR5001 and LR5002) or equivalent skills attained in Russia during student exchange programmes. In this course, you will be introduced to more facets of Russian culture, tradition and mentality of its people. You will learn to use more complex grammatical structures to express present, past and future actions. Upon the completion of this course, you will have improved your reading, listening, writing and speaking skills. Through a wide range of teaching materials, such as books, videos, web tutorials, articles, group and paired work and class debates, you will gain further insight into Russian life and culture. The language of instruction will be Russian.
+
+: 873
+code: LI5001
+name: ITALIAN LANGUAGE LEVEL 1
+academic_units: 3
+exam_schedule: 
+common_information: 
+description: The course, designed for complete beginners, introduces the students to the basic structures of Italian language and the key aspects of Italian culture such as arts, gastronomy, fashion, music, festivals and traditions. The course develops listening, reading, speaking and writing skills for an effective interaction in Italian. Through the use of a textbook and various audio-visual materials specifically tailored for NTU, students will work with activities designed to train them to deal with simple everyday situations and to master basic Italian grammar. They will read texts, answer simple questions orally, role-play, watch videos and write simple essays. Students will be also engaged in information-based tasks, working collaboratively to achieve individual and collective goals.
 mutually_exclusive: 
 not_available: 
 not_available_all: 
 offered_as_bde: 1
 offered_as_ue: 1
-prerequisite: 
-department_maintaining: LMS(SOH)
-grade_type:
 
-: 411
-code: CZ4016
-name: ADVANCED TOPICS IN ALGORITHMS
-academic_units: 3
-exam_schedule: 2024-11-2717:00-19:00
-common_information: LEC/STUDIO^SCL4^FRI^1030-1220^LT8^;TUT^SCEL^THU^0830-0920^LT8^Teaching Wk2-13
-description: This course aims to develop your ability to identify key structural components in algorithms, problems and domains alike, and to exploit them to create provably computationally efficient solutions. This course builds on basic skills obtained in the pre-requisite 'Algorithm Design and Analysis' course to provide you with intricate, elegant and actionable algorithmic design patterns; and develop your skill in exploiting salient problem features to facilitate computation. 
-Algorithms and designs presented in this course were at the beginning of multiple disciplines that now dominate the IT industry, and serve as a stepping stone for your further development for such roles as an algorithms engineer/developer or an applied researcher in computer technologies.
+description: Various forms of numerical and language data perform vital roles in today's digital economy, across industries like the media, marketing, and education, just to name a few. They provide key insights into human behavior and optimize practical problem-solving and decision-making. Building upon their primary competencies of critical thinking and communication, this course will train future professionals in linguistic and social contexts to analyze, derive, and communicate insights from such data. Students will learn to write basic code in the Python programming language, and implement basic AI, machine learning (e.g. regression, classifi cation, clustering), and Natural Language Processing (NLP) techniques on a wide range of datasets from the aforementioned industries. Ethical issues arising from the rapid growth of (Generative) AI will also be critically discussed. This course does not require a background in programming, data analytics, or statistics.
+mutually_exclusive:
 
-Question: what's the coursecode for DATA STRUCTURES & ALGORITHMS IN PYTHON
+Question: recommend me 3 courses for AI beginner
