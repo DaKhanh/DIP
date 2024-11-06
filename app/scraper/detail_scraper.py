@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-from apps.courses.models import Course
+from app.scraper.models import Course
 
 
 '''
@@ -42,7 +42,7 @@ def save_course_detail(soup: BeautifulSoup, course: Course):
     course.not_offered_as_pe_to = not_available_as_pe_to
     not_available_as_bde_ue_to = get_tr_text(soup, 'Not available as BDE/UE to Programme:')
     course.not_offered_as_bde_ue_to = not_available_as_bde_ue_to
-    
+
     # check if the course is not offered as UE or BDE, otherwise it's True by default
     tds = soup.find_all('td')
     for td in tds:
@@ -50,13 +50,13 @@ def save_course_detail(soup: BeautifulSoup, course: Course):
             course.offered_as_ue = False
         if 'Not offered as Broadening and Deepening Elective' in td.get_text():
             course.offered_as_bde = False
-            
+
     # get the department that maintain / offer this course
     second_tr = soup.find_all('tr')[1]
     last_td = second_tr.find_all('td')[-1]
     last_td_text = last_td.get_text(strip=True)
     course.department_maintaining = last_td_text
-    
+
     # save the changes
     course.save()
 
@@ -72,7 +72,7 @@ def perform_course_detail_scraping(start_index: int=0, end_index: int=9999):
     FORMDATA_ACADSEM = '2024_1'
     FORMDATA_ACAD = '2024'
     FORMDATA_SEMESTER = '1'
-    
+
     courses = Course.objects.all()
     for course in courses[start_index:end_index]:
         try:
