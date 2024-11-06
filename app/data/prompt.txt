@@ -1,62 +1,118 @@
 Prompt:
-Documents: : 113
-code: BC3415
-name: AI IN ACCOUNTING & FINANCE
+Documents: : 254
+code: CC0005
+name: HEALTHY LIVING & WELLBEING
 academic_units: 3
 exam_schedule: 
 common_information: 
-description: This is an introductory course designed for business or accountancy or Finance undergraduate students who are interested to learn how to manage data, conduct business analytics programmatically, create AI model to automate business processes and create predictive model to increase profitability or return. It is oriented to enhance their technical skillset.
+description: This course is part of the NTU 2025 Education - Common Foundational & Interdisciplinary Collaborative Curriculum (ICC). It aims to provide multi-disciplinary competence in a cross-disciplinary, collaborative learning environment, with student interaction and collaboration across schools as a key learning foundation.  As the title connotes, the main objective of this undergraduate course is to examine what constitutes living a good, healthy and flourishing life.
 
-The aim of this course is to provide a broad understanding on how to manage data, the process of preparing data for analysis, basics of analytics, using AI to automate financial analysis process and generate accounting reports. This course will equip you with the ability to write customized solutions to make informed business decisions, integrate statistical libraries for data analysis, create AI models to automate accounting and financial process. This module will provide you with individual hands-on practices to hone your coding skills and opportunities to develop coding solutions in a team. We utilize R and Python language as the medium of learning because it is one of the most in-demand coding language and its user-friendly syntax is well suited for the beginner level. You will utilise modern development tools to turn information into insights including Keras' Deep Learning model, Google Brain TensorFlow, Hadoop, Spark and Cloud.
-mutually_exclusive: BC3409, BF3223
-not_available:
-
-The aim of this course is to provide a broad understanding on how to manage data, the process of preparing data for analysis, basics of analytics, using AI to automate financial analysis process and generate accounting reports. This course will equip you with the ability to write customized solutions to make informed business decisions, integrate statistical libraries for data analysis, create AI models to automate accounting and financial process. This module will provide you with individual hands-on practices to hone your coding skills and opportunities to develop coding solutions in a team. We utilize R and Python language as the medium of learning because it is one of the most in-demand coding language and its user-friendly syntax is well suited for the beginner level. You will utilise modern development tools to turn information into insights including Keras' Deep Learning model, Google Brain TensorFlow, Hadoop, Spark and Cloud.
-mutually_exclusive: BC3415, BF3222, BF3223
-
-description: The course "Text and Image Studies on AIGC (Artificial Intelligence Generated Content)" is aimed at providing an immersive and comprehensive understanding of the interplay between artificial intelligence, text, and imagery. This course is particularly designed for you, students who are eager to delve into the evolving world of AI-generated content, whether you're from humanities, arts, or related fields. The purpose of this course is to equip you with a deep understanding of how AI technologies are being utilized to create and interpret text and images, enhancing both your theoretical knowledge and practical skills. You will be encouraged to explore and analyze AI-generated content, understand the tools and technologies behind it, and critically evaluate their impact on society and culture. This course is invaluable for your future career prospects, as it prepares you to navigate and contribute effectively in fields increasingly influenced by AI. Whether you aspire to a
-
-: 111
-code: BC3409
-name: AI IN ACCOUNTING & FINANCE
-academic_units: 4
-exam_schedule: 
-common_information: 
-description: This is an introductory course designed for business or accountancy or Finance undergraduate students who are interested to learn how to manage data, conduct business analytics programmatically, create AI model to automate business processes and create predictive model to increase profitability or return. It is oriented to enhance their technical skillset.
-
-and contribute effectively in fields increasingly influenced by AI. Whether you aspire to a career in creative industries, technology sectors, academia, or any field where digital literacy and AI understanding are crucial, this course will provide you with a unique blend of skills and insights. You will come away not only with practical abilities in using AI for creative and analytical purposes but also with a critical awareness of the ethical and societal dimensions of this rapidly advancing technology.
-
-: 197
-code: BS0004
-name: INTRODUCTION TO DATA SCIENCE
+: 1125
+code: SP0008
+name: LIVING WELL
 academic_units: 3
 exam_schedule: 
 common_information: 
-description: This course aims to introduce you to the field of data science. By the end of this course, you should appreciate how data science contributes towards Singapore's Smart Nation aspirations, potential ethical issues (especially with the use of AI), and its uses in the biological sciences.
-It is particularly noteworthy that biology is becoming increasingly digitized thanks to advancements in -omics platforms, advanced analytics, the advent of AI and cloud-based mega-data repositories. Hence, the modern biologist needs to understand how data science could potentially make his/her research more effective.
+description: This course is part of the NTU 2025 Education - Interdisciplinary Collaborative Core (ICC). It aims to provide multi-disciplinary competence in a cross-disciplinary, collaborative learning environment, with student interaction and collaboration across schools as a key learning foundation. It integrates major components from CC0005 Healthy living and Wellbeing and adds additional philosophical analysis to the course material. As the title connotes, the main objective of this undergraduate course is to examine what constitutes living a good, healthy and flourishing life.
 
-: 899
-code: LR5003
-name: RUSSIAN LANGUAGE LEVEL 3
+: 0
+code: AAA08B
+name: FASHION & DESIGN: WEARABLE ART AS A SECOND SKIN
 academic_units: 3
 exam_schedule: 
-common_information: TUT^T01^THU^1630-1820^TR+77^Teaching Wk2-13;TUT^T01^TUE^1630-1820^TR+77^Teaching Wk2-13
-description: The course aims to build on language skills and cultural knowledge acquired either through the beginners' courses (LR5001 and LR5002) or equivalent skills attained in Russia during student exchange programmes. In this course, you will be introduced to more facets of Russian culture, tradition and mentality of its people. You will learn to use more complex grammatical structures to express present, past and future actions. Upon the completion of this course, you will have improved your reading, listening, writing and speaking skills. Through a wide range of teaching materials, such as books, videos, web tutorials, articles, group and paired work and class debates, you will gain further insight into Russian life and culture. The language of instruction will be Russian.
+common_information: LEC/STUDIO^LE^THU^1430-1720^NIE7-02-07^Teaching Wk1-10,12,13
+description: Develop process skills in expression and visual articulation through the creation of wearable art works as a second skin. It is an initiation into fashion design and illustration world and will focus on the fundamentals of creating form, controlling volume and surface treatments for the body. Students of this hands-on class will experience illustrating their creations as well constructing their works to achieve a wearable art work.
 
-: 873
-code: LI5001
-name: ITALIAN LANGUAGE LEVEL 1
+: 468
+code: DR2002
+name: EMERGING PRODUCT DESIGN PRACTICES
 academic_units: 3
 exam_schedule: 
-common_information: 
-description: The course, designed for complete beginners, introduces the students to the basic structures of Italian language and the key aspects of Italian culture such as arts, gastronomy, fashion, music, festivals and traditions. The course develops listening, reading, speaking and writing skills for an effective interaction in Italian. Through the use of a textbook and various audio-visual materials specifically tailored for NTU, students will work with activities designed to train them to deal with simple everyday situations and to master basic Italian grammar. They will read texts, answer simple questions orally, role-play, watch videos and write simple essays. Students will be also engaged in information-based tasks, working collaboratively to achieve individual and collective goals.
+common_information: TUT^G01^MON^0930-1220^ART-B1-23^
+description: In this intermediate level course, you will be introduced to unique and topical issues in product design. You will explore one or more issues, conduct analysis and exploration, and produce designs that address a specific aspect that you have identified. This course builds upon the learning of other courses as it prepares the way for creating unique product designs.
 mutually_exclusive: 
 not_available: 
-not_available_all: 
+not_available_all: Yr1
 offered_as_bde: 1
 offered_as_ue: 1
+prerequisite: 
+department_maintaining: ADM
+grade_type: 
+not_offered_as_bde_ue_to: 
+not_offered_as_core_to: 
+not_offered_as_pe_to: 
+program_list: Design & Media (DA) Year 4, Design & Media (MA) Year 3, Design & Media (DA) Year 2, Art, Design & Media (MA) Year 4, Design & Media (MA) Year 2, Design & Media (DA) Year 3, Art
+level: 2
+program_code: DR
 
-description: Various forms of numerical and language data perform vital roles in today's digital economy, across industries like the media, marketing, and education, just to name a few. They provide key insights into human behavior and optimize practical problem-solving and decision-making. Building upon their primary competencies of critical thinking and communication, this course will train future professionals in linguistic and social contexts to analyze, derive, and communicate insights from such data. Students will learn to write basic code in the Python programming language, and implement basic AI, machine learning (e.g. regression, classifi cation, clustering), and Natural Language Processing (NLP) techniques on a wide range of datasets from the aforementioned industries. Ethical issues arising from the rapid growth of (Generative) AI will also be critically discussed. This course does not require a background in programming, data analytics, or statistics.
-mutually_exclusive:
+: 469
+code: DR2005
+name: COMPUTER AIDED DESIGN WORKSHOP I
+academic_units: 3
+exam_schedule: 
+common_information: TUT^G01^WED^0930-1220^ART-B1-23^
+description: Computer Aided Design:
+New and developing digital visualization and design technologies are not only changing the way that products are designed but also, by virtue of the new visual languages that they enable, leaving their mark on the form of the design itself. This course is a practical exploration of the introductory principles and techniques for the design, visualization and presentation of product designs such as consumer products, environments and furniture. You will be taught using commercially available design software packages, with emphasis on imparting principles, concepts and techniques which are portable across other software packages used by the profession.
 
-Question: recommend me 3 courses for AI beginner
+Two and Three Dimensional Modelling:
+Introduction to two and three-dimensional modeling principles and techniques.
+
+: 427
+code: DA3000
+name: THINKING & COMMUNICATING VISUALLY III
+academic_units: 3
+exam_schedule: 
+common_information: 
+description: This is a studio-oriented workshop where students are given the opportunity to experience the creative design process and be expose to different skill sets required towards the development of new products and devices.  Students are guided with appropriate precedent studies engaging them in studio projects involving the `hard' and `soft' skill of the 3d visualization technique.
+
+level: 2
+program_code: AC
+
+: 472
+code: DR3006
+name: PRODUCT DESIGN III
+academic_units: 3
+exam_schedule: 
+common_information: TUT^G01^TUE^1330-1620^ART-B1-17A^
+description: This intermediate level course introduces you to the practice of user-centric design and designing of product systems. It is integrated as a practice-based learning experience that develops students? ability to apply the design process in the creation of product systems that combine objects, services and interfaces. This course will prepare you in designing objects and services more holistically and at a higher level in your study of product design in years 3 and 4.
+mutually_exclusive: DR3000, MA4858
+not_available: 
+not_available_all: Yr1
+offered_as_bde: 1
+offered_as_ue: 1
+prerequisite: DR2004
+department_maintaining: ADM
+grade_type: 
+not_offered_as_bde_ue_to: 
+not_offered_as_core_to: 
+not_offered_as_pe_to: 
+program_list: Design & Media (DA) Year 2, Art, Design & Media (DA) Year 4, Art, Design & Media (DA) Year 3
+level: 3
+program_code: DR
+
+: 439
+code: DF2004
+name: SOUND IN MEDIA
+academic_units: 3
+exam_schedule: 
+common_information: TUT^G01^WED^0930-1220^ART-B1-05G^
+description: In this introductory course you will examine sound and hearing in the media context. Theories of sound and hearing will be discussed and the role of sound in media investigated, as you examine historical, technical, cultural,  social  and  material  perspectives.  Natural  and  man-made soundscapes and the impact of new technology on sound reproduction, noise reduction and sound dissemination will be examined through the lens of sound as a cultural artifact. You will gain hands-on experience in recording and editing sound for various media applications including sound for image, to facilitate an understanding of the aesthetics of sound in media.
+mutually_exclusive: 
+not_available: 
+not_available_all: Yr1
+offered_as_bde: 1
+offered_as_ue: 1
+prerequisite: 
+department_maintaining: ADM
+grade_type: 
+not_offered_as_bde_ue_to: 
+not_offered_as_core_to:
+
+: 88
+code: AED23C
+name: CRITICAL REASONING SKILLS FOR EFFECTIVE TEACHING
+academic_units: 2
+exam_schedule: 
+common_information: LEC/STUDIO^LE^WED^1330-1520^7-01-TR701^
+
+Question: good
