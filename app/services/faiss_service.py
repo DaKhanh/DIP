@@ -68,8 +68,6 @@ def setup_llm_chain():
 
         Finally, if you are asked about details regarding a certain module please provide the course code, description, academic units, course title and prerequisite and dont include level
 
-        If you are given questions that is related to subjective judgements, please provide a disclaimer that you dont have the exact data to backup your statement. such as when you are asked about which is the best mod
-
         """,
     )
 

@@ -1,7 +1,7 @@
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
 
-from apps.courses.validations import (
+from app.scraper.validations import (
     validate_index,
     validate_exam_schedule,
     validate_information,
@@ -16,10 +16,10 @@ class CoursePrefix(models.Model):
     '''
     prefix = models.CharField(max_length=3, unique=True)
     last_updated = models.DateTimeField(auto_now=True)
-    
+
     class Meta:
         verbose_name_plural = 'Course Prefixes'
-    
+
     def __str__(self):
         return f'<{self.prefix}>'
 
@@ -40,7 +40,7 @@ class Course(models.Model):
 
     '''
     Derived information: can be gained from the course code, but stored separately for easier access.
-    
+
     `level` is determined by the first non-letter character in the course code.
     Currently, only levels 1 to 5 are stored, with the rest stored as 10.
     If the number after the letters is less than 4 digits, it is stored as 10.
@@ -70,7 +70,7 @@ class Course(models.Model):
     not_offered_as_bde_ue_to = models.CharField(max_length=1000, null=True, blank=True)
     department_maintaining = models.CharField(max_length=50, null=True, blank=True)
     program_list = models.CharField(max_length=1000, null=True, blank=True)
-    
+
     '''
     Exam and Course schedule.
 
@@ -114,7 +114,7 @@ class Course(models.Model):
             }
         return [serialize_info(info_group) for info_group in self.common_information.split(';')] if \
             self.common_information else []
-    
+
     @property
     def get_exam_schedule(self):
         if self.exam_schedule == '':
@@ -148,12 +148,12 @@ class CourseIndex(models.Model):
     index = models.CharField(max_length=5, unique=True, validators=[validate_index])
     information = models.TextField(validators=[validate_information])
     schedule = models.CharField(max_length=192, validators=[validate_weekly_schedule])
-    
+
     '''
     Filtered information are `information` that are not common across all indexes of the course.
     '''
     filtered_information = models.TextField(null=True, blank=True, validators=[validate_information])
-    
+
     def serialize_info(self, info):
         single_infos = info.split('^')
         return {
@@ -169,7 +169,7 @@ class CourseIndex(models.Model):
     def get_information(self):
         return [self.serialize_info(info_group) for info_group in self.information.split(';')] if \
             self.information else []
-    
+
     @property
     def get_filtered_information(self):
         return [self.serialize_info(info_group) for info_group in self.filtered_information.split(';')] if \
