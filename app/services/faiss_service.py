@@ -51,24 +51,10 @@ llm = ChatOpenAI(
 
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
-def setup_llm_chain():
+def setup_llm_chain(context):
     prompt_template = PromptTemplate(
         input_variables=["chat_history", "context"],
-        template="""
-        You are an expert assistant. Here's the conversation so far:
-        {chat_history}
-        Now, use the following context to answer the question:
-        {context}
-        Provide a helpful and accurate answer.
-
-        Here some more information you need to consider regarding column provided in the data:
-
-        Core: module that must be taken by the major
-        BDE is Broadening deepening electives. These are the module that is available to students outside of their core to be taken.
-
-        Finally, if you are asked about details regarding a certain module please provide the course code, description, academic units, course title and prerequisite and dont include level
-
-        """,
+        template=context
     )
 
     llm_chain = LLMChain(
@@ -79,9 +65,10 @@ def setup_llm_chain():
     return llm_chain
 
 def chat_with_llm_chain(question):
+
     keywords = extract_keywords(question)
     print(f"Extracted keywords: {keywords}")
-
+    
     retriever = vector_store.as_retriever(search_type="similarity",
                                           search_kwargs={'k': 100})
     initial_docs = retriever.invoke(keywords)
@@ -130,7 +117,7 @@ def chat_with_llm_chain(question):
     # limit the number of documents to 10 to avoid long prompts
     top_10_reranked_docs = reranked_docs[:10]
 
-    context_documents = "\n\n".join([doc["text"] for doc in top_10_reranked_docs])
+    context_documents = "\n\n".join([doc["text"].replace('"', '').replace("{",'').replace("}",'') for doc in top_10_reranked_docs])
     print(f"join time: {time.time() - start_time}")
 
     # construct prompt
@@ -139,7 +126,23 @@ def chat_with_llm_chain(question):
     # else:
     #     context = f"General question: {question}"
 
-    context = f"Documents: {context_documents}\n\nQuestion: {question}"
+    context = f'''
+    You are an expert assistant. 
+        Now, use the following context to answer the question:
+
+        Documents: \n\n{context_documents}\n\nQuestion: {question}
+        
+        Provide a helpful and accurate answer.
+
+        Here some more information you need to consider regarding column provided in the data:
+
+        Core: module that must be taken by the major
+        BDE is Broadening deepening electives. These are the module that is available to students outside of their core to be taken.
+
+        Finally, if you are asked about details regarding a certain module please provide the course name, course code, description, academic units, course title and prerequisite and dont include level
+
+        If you are given questions that is related to subjective judgements, please provide a disclaimer that you dont have the exact data to backup your statement. such as when you are asked about which is the best mod
+    '''
 
     # save the prompt to a file
     prompt_file_path = "D:\\dip_all\\app\\data\\prompt.txt"
@@ -148,16 +151,18 @@ def chat_with_llm_chain(question):
     print(f"Saved prompt to {prompt_file_path}")
 
     # LLMChain
-    llm_chain = setup_llm_chain()
+    llm_chain = setup_llm_chain(context)
     response = llm_chain.invoke({
         "context": context,
         "chat_history": memory.load_memory_variables({})["chat_history"]
     })
 
+    response_text = response['text'] if 'text' in response else str(response)
+
     # save the LLM response to a file
     response_file_path = "D:\\dip_all\\app\\data\\llm_response.txt"
     with open(response_file_path, 'w', encoding='utf-8') as f:
-        f.write(f"LLM Response:\n{response}\n")
+        f.write(f"LLM Response:\n{response_text}\n")
     print(f"Saved LLM response to {response_file_path}")
 
     return response

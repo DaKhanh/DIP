@@ -1,12 +1,13 @@
 import os
 import faiss
 import pickle
-from langchain_openai.embeddings import OpenAIEmbeddings
-from langchain_community.vectorstores import FAISS
-from langchain_community.document_loaders import CSVLoader
-from langchain_community.docstore.in_memory import InMemoryDocstore
+import pandas as pd
+import json
+from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain.vectorstores import FAISS
+from langchain.docstore.in_memory import InMemoryDocstore
+from langchain.schema import Document
 from dotenv import load_dotenv
-from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 load_dotenv()
 
@@ -17,13 +18,25 @@ if not openai_api_key:
 embeddings = OpenAIEmbeddings(model="text-embedding-3-large", openai_api_key=openai_api_key)
 
 csv_path = 'D:\\dip_all\\app\\data\\data_cleaned.csv'
-loader = CSVLoader(file_path=csv_path, csv_args={"delimiter": ","})
-data = loader.load()
 
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100, add_start_index=True)
-texts = text_splitter.split_documents(data)
+df = pd.read_csv(csv_path, index_col=0)
 
-texts_for_faiss = [doc.page_content for doc in texts]
+documents = []
+
+for idx, row in df.iterrows():
+    row_dict = row.to_dict()
+    row_text = json.dumps(row_dict, ensure_ascii=False)
+    doc = Document(page_content=row_text)
+    documents.append(doc)
+
+print("example:")
+for i, doc in enumerate(documents[:3]):  
+    print(f"\n--- doc {i+1} ---")
+    print(doc.page_content)
+    print(f"length: {len(doc.page_content)} characters")
+
+
+texts_for_faiss = [doc.page_content for doc in documents]
 
 index = faiss.IndexFlatL2(len(embeddings.embed_query("hello world")))
 
@@ -34,7 +47,7 @@ vector_store = FAISS(
     index_to_docstore_id={},
 )
 
-vector_store.add_documents(documents=texts)
+vector_store.add_documents(documents=documents)
 
 # 存储向量索引和数据到磁盘
 faiss.write_index(index, "faiss_index.index")

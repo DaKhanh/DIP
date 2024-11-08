@@ -1,118 +1,40 @@
 Prompt:
-Documents: : 254
-code: CC0005
-name: HEALTHY LIVING & WELLBEING
-academic_units: 3
-exam_schedule: 
-common_information: 
-description: This course is part of the NTU 2025 Education - Common Foundational & Interdisciplinary Collaborative Curriculum (ICC). It aims to provide multi-disciplinary competence in a cross-disciplinary, collaborative learning environment, with student interaction and collaboration across schools as a key learning foundation.  As the title connotes, the main objective of this undergraduate course is to examine what constitutes living a good, healthy and flourishing life.
 
-: 1125
-code: SP0008
-name: LIVING WELL
-academic_units: 3
-exam_schedule: 
-common_information: 
-description: This course is part of the NTU 2025 Education - Interdisciplinary Collaborative Core (ICC). It aims to provide multi-disciplinary competence in a cross-disciplinary, collaborative learning environment, with student interaction and collaboration across schools as a key learning foundation. It integrates major components from CC0005 Healthy living and Wellbeing and adds additional philosophical analysis to the course material. As the title connotes, the main objective of this undergraduate course is to examine what constitutes living a good, healthy and flourishing life.
+    You are an expert assistant. 
+        Now, use the following context to answer the question:
 
-: 0
-code: AAA08B
-name: FASHION & DESIGN: WEARABLE ART AS A SECOND SKIN
-academic_units: 3
-exam_schedule: 
-common_information: LEC/STUDIO^LE^THU^1430-1720^NIE7-02-07^Teaching Wk1-10,12,13
-description: Develop process skills in expression and visual articulation through the creation of wearable art works as a second skin. It is an initiation into fashion design and illustration world and will focus on the fundamentals of creating form, controlling volume and surface treatments for the body. Students of this hands-on class will experience illustrating their creations as well constructing their works to achieve a wearable art work.
+        Documents: 
 
-: 468
-code: DR2002
-name: EMERGING PRODUCT DESIGN PRACTICES
-academic_units: 3
-exam_schedule: 
-common_information: TUT^G01^MON^0930-1220^ART-B1-23^
-description: In this intermediate level course, you will be introduced to unique and topical issues in product design. You will explore one or more issues, conduct analysis and exploration, and produce designs that address a specific aspect that you have identified. This course builds upon the learning of other courses as it prepares the way for creating unique product designs.
-mutually_exclusive: 
-not_available: 
-not_available_all: Yr1
-offered_as_bde: 1
-offered_as_ue: 1
-prerequisite: 
-department_maintaining: ADM
-grade_type: 
-not_offered_as_bde_ue_to: 
-not_offered_as_core_to: 
-not_offered_as_pe_to: 
-program_list: Design & Media (DA) Year 4, Design & Media (MA) Year 3, Design & Media (DA) Year 2, Art, Design & Media (MA) Year 4, Design & Media (MA) Year 2, Design & Media (DA) Year 3, Art
-level: 2
-program_code: DR
+code: SS5105, name: VOLLEYBALL, academic_units: 3, exam_schedule: NaN, common_information: NaN, description: Volleyball is one of the sport courses offered under the Sport Electives@SSM. This course aims to equip you with the knowledge and skills of Volleyball so that you are able to demonstrate the techniques of the game, and play the game., mutually_exclusive: NaN, not_available: NaN, not_available_all: NaN, offered_as_bde: 1, offered_as_ue: 1, prerequisite: Physically active.No injuries/medical conditions., department_maintaining: SSM(NIE), grade_type: NaN, not_offered_as_bde_ue_to: NaN, not_offered_as_core_to: NaN, not_offered_as_pe_to: NaN, program_list: NaN, level: 5, program_code: SS
 
-: 469
-code: DR2005
-name: COMPUTER AIDED DESIGN WORKSHOP I
-academic_units: 3
-exam_schedule: 
-common_information: TUT^G01^WED^0930-1220^ART-B1-23^
-description: Computer Aided Design:
-New and developing digital visualization and design technologies are not only changing the way that products are designed but also, by virtue of the new visual languages that they enable, leaving their mark on the form of the design itself. This course is a practical exploration of the introductory principles and techniques for the design, visualization and presentation of product designs such as consumer products, environments and furniture. You will be taught using commercially available design software packages, with emphasis on imparting principles, concepts and techniques which are portable across other software packages used by the profession.
+code: SS5107, name: TABLE TENNIS, academic_units: 3, exam_schedule: NaN, common_information: NaN, description: Table-tennis is one of the sport courses offered under the Sport Electives@SSM. This course aims to equip you with the knowledge and skills of table-tennis so that you are able to demonstrate the techniques of the game, and play the game., mutually_exclusive: NaN, not_available: NaN, not_available_all: NaN, offered_as_bde: 1, offered_as_ue: 1, prerequisite: Physically active.No injuries/medical conditions., department_maintaining: SSM(NIE), grade_type: NaN, not_offered_as_bde_ue_to: NaN, not_offered_as_core_to: NaN, not_offered_as_pe_to: NaN, program_list: NaN, level: 5, program_code: SS
 
-Two and Three Dimensional Modelling:
-Introduction to two and three-dimensional modeling principles and techniques.
+code: SS5608, name: SPORT COACHING: FOUNDATIONS OF COACHING, academic_units: 3, exam_schedule: NaN, common_information: LEC/STUDIO^1^THU^0930-1020^NIE3-LT10^;TUT^1^THU^1330-1520^NIE5-TR506^, description: This course examines and applies practical sport coach pedagogy (learning theories and instructional models) to the sport environment. Issues related to effective coaching of young athletes will be addressed. In addition, pedagogical knowledge and application of the principles of motor skills' learning will be covered in this course., mutually_exclusive: NaN, not_available: SSM, not_available_all: NaN, offered_as_bde: 1, offered_as_ue: 1, prerequisite: NaN, department_maintaining: SSM(NIE), grade_type: NaN, not_offered_as_bde_ue_to: NaN, not_offered_as_core_to: NaN, not_offered_as_pe_to: NaN, program_list: NaN, level: 5, program_code: SS
 
-: 427
-code: DA3000
-name: THINKING & COMMUNICATING VISUALLY III
-academic_units: 3
-exam_schedule: 
-common_information: 
-description: This is a studio-oriented workshop where students are given the opportunity to experience the creative design process and be expose to different skill sets required towards the development of new products and devices.  Students are guided with appropriate precedent studies engaging them in studio projects involving the `hard' and `soft' skill of the 3d visualization technique.
+code: SS5106, name: NETBALL, academic_units: 3, exam_schedule: NaN, common_information: NaN, description: Netball is one of the sport courses offered under the Sport Electives@SSM. This course aims to equip you with the knowledge and skills of Netball so that you are able to demonstrate the techniques of the game, and play the game., mutually_exclusive: NaN, not_available: NaN, not_available_all: NaN, offered_as_bde: 1, offered_as_ue: 1, prerequisite: Physically active.No injuries/medical conditions., department_maintaining: SSM(NIE), grade_type: NaN, not_offered_as_bde_ue_to: NaN, not_offered_as_core_to: NaN, not_offered_as_pe_to: NaN, program_list: NaN, level: 5, program_code: SS
 
-level: 2
-program_code: AC
+code: SS5103, name: SQUASH, academic_units: 3, exam_schedule: NaN, common_information: NaN, description: The aim of this course is to introduce you to the key elements involved in playing the game of squash. The course will also provide ideas on developing skills through adequate physical and mental preparation. Analysis of video clips (IT) will be used to introduce elements of style or form and to explain the rules of the game. The rules may subsequently be modified to suit the class. Sport science knowledge will be enlisted to facilitate the learning of technical skills and game play. Game-specific assessment tools will be introduced., mutually_exclusive: NaN, not_available: NaN, not_available_all: NaN, offered_as_bde: 1, offered_as_ue: 1, prerequisite: Physically active.No injuries/medical conditions., department_maintaining: SSM(NIE), grade_type: NaN, not_offered_as_bde_ue_to: NaN, not_offered_as_core_to: NaN, not_offered_as_pe_to: NaN, program_list: NaN, level: 5, program_code: SS
 
-: 472
-code: DR3006
-name: PRODUCT DESIGN III
-academic_units: 3
-exam_schedule: 
-common_information: TUT^G01^TUE^1330-1620^ART-B1-17A^
-description: This intermediate level course introduces you to the practice of user-centric design and designing of product systems. It is integrated as a practice-based learning experience that develops students? ability to apply the design process in the creation of product systems that combine objects, services and interfaces. This course will prepare you in designing objects and services more holistically and at a higher level in your study of product design in years 3 and 4.
-mutually_exclusive: DR3000, MA4858
-not_available: 
-not_available_all: Yr1
-offered_as_bde: 1
-offered_as_ue: 1
-prerequisite: DR2004
-department_maintaining: ADM
-grade_type: 
-not_offered_as_bde_ue_to: 
-not_offered_as_core_to: 
-not_offered_as_pe_to: 
-program_list: Design & Media (DA) Year 2, Art, Design & Media (DA) Year 4, Art, Design & Media (DA) Year 3
-level: 3
-program_code: DR
+code: AAM18A, name: MATHEMATICS AROUND US, academic_units: 3, exam_schedule: NaN, common_information: TUT^T1^TUE^1330-1620^NIE7-TR715^, description: This course aims to introduce students to the Mathematics that we see in different areas of human life not normally associated with science and technology.  Most students view mathematics as a pragmatic and powerful tool applied in various fields of science and technology.  This course seeks to lead students to an appreciation of the human aspects of Mathematics through an understanding of its presence in the arts and other common human activities. The course will explore the presence and use of mathematics in the diverse areas where mathematics is less expected, such as art, music, sports, games of chance, coding, persuasion and decision making, magic tricks and puzzles.  Selected anecdotes of mathematical discoveries will also be included., mutually_exclusive: NaN, not_available: NaN, not_available_all: NaN, offered_as_bde: 1, offered_as_ue: 1, prerequisite: NaN, department_maintaining: NIE, grade_type: NaN, not_offered_as_bde_ue_to: NaN, not_offered_as_core_to: NaN, not_offered_as_pe_to: NaN, program_list: NaN, level: 10, program_code: AAM
 
-: 439
-code: DF2004
-name: SOUND IN MEDIA
-academic_units: 3
-exam_schedule: 
-common_information: TUT^G01^WED^0930-1220^ART-B1-05G^
-description: In this introductory course you will examine sound and hearing in the media context. Theories of sound and hearing will be discussed and the role of sound in media investigated, as you examine historical, technical, cultural,  social  and  material  perspectives.  Natural  and  man-made soundscapes and the impact of new technology on sound reproduction, noise reduction and sound dissemination will be examined through the lens of sound as a cultural artifact. You will gain hands-on experience in recording and editing sound for various media applications including sound for image, to facilitate an understanding of the aesthetics of sound in media.
-mutually_exclusive: 
-not_available: 
-not_available_all: Yr1
-offered_as_bde: 1
-offered_as_ue: 1
-prerequisite: 
-department_maintaining: ADM
-grade_type: 
-not_offered_as_bde_ue_to: 
-not_offered_as_core_to:
+code: SS5205, name: RUGBY, academic_units: 3, exam_schedule: NaN, common_information: TUT^1^THU^0830-1120^NIE PITCH^, description: The aim of this course is to provide you with knowledge, understanding and playing competency in the various forms of rugby, using tag and touch rugby as forms to learn the fundamentals and skills involved. Game strategies will be learnt and applied in practice and match related sessions. Theory aspects will be learnt so as to fulfil the aspects of the how and why to the game of rugby. \n\nSession practices will include techniques and strategic thinking to understand the principles of play. These theory and practical sessions will further aid you in developing the thought process and the application of these mini aspects put together. The Sport Education and Games Concept Approaches (GCA) will be adopted, employing the use of modified games to demonstrate the advantages of adjustments to the major game for effective learning., mutually_exclusive: NaN, not_available: NaN, not_available_all: NaN, offered_as_bde: 1, offered_as_ue: 1, prerequisite: Physically active.No injuries/medical conditions., department_maintaining: SSM(NIE), grade_type: NaN, not_offered_as_bde_ue_to: NaN, not_offered_as_core_to: NaN, not_offered_as_pe_to: NaN, program_list: NaN, level: 5, program_code: SS
 
-: 88
-code: AED23C
-name: CRITICAL REASONING SKILLS FOR EFFECTIVE TEACHING
-academic_units: 2
-exam_schedule: 
-common_information: LEC/STUDIO^LE^WED^1330-1520^7-01-TR701^
+code: SS5605, name: PSYCHOSOCIAL ASPECTS OF SPORT & EXERCISE, academic_units: 3, exam_schedule: NaN, common_information: LEC/STUDIO^1^THU^0830-1020^NIE5-LT11^;TUT^1^FRI^0930-1020^NIE5-TR504^, description: This is an introductory course on exercise and sport psychology. The focus of this course is on the social and psychological aspects of sport and exercise. Topics covered include personality, motivation, stress and coping, aggression, moral development, team building and cohesion, competition, and leadership. Emphasis will be on the role of sport psychology in influencing participants' cognition, emotion, and behaviour in physical activity and sport settings., mutually_exclusive: NaN, not_available: SSM, not_available_all: NaN, offered_as_bde: 1, offered_as_ue: 1, prerequisite: NaN, department_maintaining: SSM(NIE), grade_type: NaN, not_offered_as_bde_ue_to: NaN, not_offered_as_core_to: NaN, not_offered_as_pe_to: NaN, program_list: NaN, level: 5, program_code: SS
 
-Question: good
+code: SS5607, name: INTRODUCTION TO SPORT BIOMECHANICS, academic_units: 3, exam_schedule: NaN, common_information: LEC/STUDIO^1^MON^0830-0920^NIE5-LT11^;TUT^1^MON^0930-1120^NIE5-B3-01^, description: This course introduces basic mechanical concepts, laboratory equipment and software to evaluate human movements: \n\tLinear and angular kinematics\n\tLinear and angular kinetics\n\tEquilibrium\n\tFluid mechanics, mutually_exclusive: NaN, not_available: SSM, not_available_all: NaN, offered_as_bde: 1, offered_as_ue: 1, prerequisite: NaN, department_maintaining: SSM(NIE), grade_type: NaN, not_offered_as_bde_ue_to: NaN, not_offered_as_core_to: NaN, not_offered_as_pe_to: NaN, program_list: NaN, level: 5, program_code: SS
+
+code: LK5005, name: KOREAN LANGUAGE LEVEL 5, academic_units: 3, exam_schedule: NaN, common_information: TUT^T01^TUE^1230-1420^HSS-TR+1^Teaching Wk2-13;TUT^T01^THU^1230-1420^HSS-TR+2^Teaching Wk2-13, description: This course introduces the following items at a more advanced level. 1) Traveling, 2) House Chores, 3) Activities as Hobbies, 4) Everyday Life.  Students learn additional vocabulary and idiomatic expressions pertaining to everyday life and hobby related topics, allowing them to conduct everyday conversations freely.  They will learn and be able to conduct conversations regarding various topics and express their opinions comfortably. In addition, learners will be exposed to contemporary issues or traditional values embedded in cultural lessons. Such cultural lessons would involve basic familiarization with Korean history and customs, made more accessible through audio-visual aids., mutually_exclusive: NaN, not_available: NaN, not_available_all: NaN, offered_as_bde: 1, offered_as_ue: 1, prerequisite: Placement Test or, department_maintaining: SOH, grade_type: NaN, not_offered_as_bde_ue_to: NaN, not_offered_as_core_to: NaN, not_offered_as_pe_to: NaN, program_list: Linguistics & Multilingual Studies Year 4, level: 5, program_code: LK
+
+Question: Recommend me 5 courses related to sports or sports science
+        
+        Provide a helpful and accurate answer.
+
+        Here some more information you need to consider regarding column provided in the data:
+
+        Core: module that must be taken by the major
+        BDE is Broadening deepening electives. These are the module that is available to students outside of their core to be taken.
+
+        Finally, if you are asked about details regarding a certain module please provide the course name, course code, description, academic units, course title and prerequisite and dont include level
+
+        If you are given questions that is related to subjective judgements, please provide a disclaimer that you dont have the exact data to backup your statement. such as when you are asked about which is the best mod
+    
