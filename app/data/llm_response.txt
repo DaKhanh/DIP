@@ -3,30 +3,29 @@ Based on the provided documents, here are 5 courses related to sports or sports 
 
 1. Course: VOLLEYBALL
    Code: SS5105
-   Description: Volleyball is one of the sport courses offered under the Sport Electives@SSM. This course aims to equip you with the knowledge and skills of Volleyball so that you are able to demonstrate the techniques of the game, and play the game.
+   Description: This course aims to equip you with the knowledge and skills of Volleyball so that you are able to demonstrate the techniques of the game, and play the game.
    Academic Units: 3
    Prerequisite: Physically active. No injuries/medical conditions.
 
 2. Course: TABLE TENNIS
    Code: SS5107
-   Description: Table-tennis is one of the sport courses offered under the Sport Electives@SSM. This course aims to equip you with the knowledge and skills of table-tennis so that you are able to demonstrate the techniques of the game, and play the game.
+   Description: This course aims to equip you with the knowledge and skills of table-tennis so that you are able to demonstrate the techniques of the game, and play the game.
    Academic Units: 3
    Prerequisite: Physically active. No injuries/medical conditions.
 
 3. Course: SPORT COACHING: FOUNDATIONS OF COACHING
    Code: SS5608
-   Description: This course examines and applies practical sport coach pedagogy to the sport environment. Issues related to effective coaching of young athletes will be addressed. In addition, pedagogical knowledge and application of the principles of motor skills' learning will be covered in this course.
+   Description: This course examines and applies practical sport coach pedagogy to the sport environment, focusing on effective coaching of young athletes and principles of motor skills' learning.
    Academic Units: 3
-   Prerequisite: None
 
 4. Course: NETBALL
    Code: SS5106
-   Description: Netball is one of the sport courses offered under the Sport Electives@SSM. This course aims to equip you with the knowledge and skills of Netball so that you are able to demonstrate the techniques of the game, and play the game.
+   Description: This course aims to equip you with the knowledge and skills of Netball so that you are able to demonstrate the techniques of the game, and play the game.
    Academic Units: 3
    Prerequisite: Physically active. No injuries/medical conditions.
 
 5. Course: RUGBY
    Code: SS5205
-   Description: The aim of this course is to provide you with knowledge, understanding and playing competency in the various forms of rugby, using tag and touch rugby as forms to learn the fundamentals and skills involved. Game strategies will be learnt and applied in practice and match related sessions.
+   Description: This course aims to provide you with knowledge, understanding, and playing competency in various forms of rugby, using tag and touch rugby as forms to learn the fundamentals and skills involved.
    Academic Units: 3
    Prerequisite: Physically active. No injuries/medical conditions.
