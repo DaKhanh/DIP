@@ -1,10 +1,9 @@
 # DIP
 
-
+## Technology Stack
+Retrieval-Augmented Generation (RAG), FAISS (Facebook AI Similarity Search), Flask.
 
 ## How to run?
-
-
 
 1. **Download the Project**: Either download as zip and extract the project files or clone the repository using Git.
 

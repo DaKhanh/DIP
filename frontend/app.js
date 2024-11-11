@@ -10,7 +10,6 @@ document.getElementById('chat-form').addEventListener('submit', function (e) {
     userMessage.textContent = "You: " + userInput;
     chatHistory.appendChild(userMessage);
 
-    // 清空输入框
     document.getElementById('user-input').value = '';
 
     // 发送请求到后端的 /ask API
