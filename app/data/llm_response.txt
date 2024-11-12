@@ -1,2 +1,11 @@
 LLM Response:
-The prerequisite for EE3017 is IE2106.
+Based on the provided data, a recommended BDE module from SCSE (School of Computer Science and Engineering) would be "APPLICATION SECURITY" with the course code SC4013. 
+
+Here are the details of the module:
+- Course Name: APPLICATION SECURITY
+- Course Code: SC4013
+- Description: This course aims to provide foundational knowledge on important security issues and techniques required for cybersecurity.
+- Academic Units: 3
+- Prerequisite: None specified
+
+Please note that this recommendation is based on the information provided in the documents and the suitability of the module for broadening and deepening electives in SCSE.

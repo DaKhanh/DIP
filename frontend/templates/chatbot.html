@@ -60,42 +60,59 @@
         }
         
         .chat-history {
-            max-width: 80%; /* 增加对话框宽度至80% */
-            margin: 20px auto; /* 让对话框水平居中 */
+            max-width: 80%;
+            margin: 20px auto;
             padding: 20px;
             min-width: 900px; 
             background-color: transparent;
             border-radius: 10px;
-            height: 60vh; /* 设置对话框高度为视口高度的60% */
+            height: 60vh;
             overflow-y: auto;
             display: flex;
             flex-direction: column;
         }
 
+        .message-container {
+            display: flex;
+            align-items: flex-start;
+            margin: 10px 0;
+        }
+
+        .bot-message-container {
+            flex-direction: row;
+        }
+
+        .user-message-container {
+            flex-direction: row-reverse;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
         
         .message {
             font-size: 14px;
             white-space: pre-wrap;
-            padding-left: 20px;
             padding: 10px;
-            margin: 10px 0;
             border-radius: 10px;
-            max-width: 60%; /* 控制消息宽度 */
-            word-wrap: break-word; /* 允许在长文本中自动换行 */
+            max-width: 60%;
+            word-wrap: break-word;
         }
         
         .user-message {
             background-color: #4a4a4a;
             align-self: flex-end;
             text-align: right;
-            border-top-right-radius: 0; /* 模仿 GPT 风格的用户消息气泡 */
+            border-top-right-radius: 0;
         }
         
         .bot-message {
             background-color: #555;
-            align-self: flex-start;
             text-align: left;
-            border-top-left-radius: 0; /* 模仿 GPT 风格的机器人消息气泡 */
+            border-top-left-radius: 0;
         }
         
         .chatbox {
@@ -115,7 +132,7 @@
         .chatbox input[type="text"] {
             padding: 15px;
             font-size: 18px;
-            width: 70%; /* 减少输入框宽度以平衡布局 */
+            width: 70%;
             max-width: 800px;
             border: none;
             border-radius: 5px;
@@ -184,10 +201,20 @@
             chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
         
             // Reset botMessage each time to ensure it's new for each request
+            const botMessageContainer = document.createElement('div');
+            botMessageContainer.classList.add('message-container', 'bot-message-container');
+
+            const botAvatar = document.createElement('img');
+            botAvatar.classList.add('avatar', 'bot-avatar');
+            botAvatar.src = 'pic/bot_icon.jpg';
+
             const botMessage = document.createElement('div');
             botMessage.classList.add('message', 'bot-message');
             botMessage.textContent = "Retrieving...";
-            chatHistoryDiv.appendChild(botMessage);
+
+            botMessageContainer.appendChild(botAvatar);
+            botMessageContainer.appendChild(botMessage);
+            chatHistoryDiv.appendChild(botMessageContainer);
         
             // Scroll to bottom of chat history
             chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
@@ -210,7 +237,7 @@
                 // Clear the "thinking..." timeout
                 clearTimeout(thinkingTimeout);
         
-                // Replace "thinking..." with the actual answer
+                // Replace "Retrieving..." with the actual answer
                 botMessage.textContent = data.answer;
         
                 // Scroll to bottom of chat history
