@@ -182,7 +182,19 @@
 
             // Scroll to bottom of chat history
             chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
+            
+            const botMessage = document.createElement('div');
+            botMessage.classList.add('message', 'bot-message');
+            botMessage.textContent = "Retrieving..";
+            chatHistoryDiv.appendChild(botMessage);
 
+            chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
+
+            setTimeout(() => {
+                botMessage.textContent = "thinking...";
+            }, 3000);
+
+            // Fetch answer from server
             fetch('http://127.0.0.1:5000/ask', {
                 method: 'POST',
                 headers: {
@@ -192,22 +204,16 @@
             })
             .then(response => response.json())
             .then(data => {
-                // Append bot response to chat history
-                const botMessage = document.createElement('div');
-                botMessage.classList.add('message', 'bot-message');
-                botMessage.textContent = data.answer;
-                chatHistoryDiv.appendChild(botMessage);
+                // Replace "thinking..." with the actual answer
+            botMessage.textContent = data.answer;
 
                 // Scroll to bottom of chat history
-                chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
+            chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
             })
             .catch(error => {
                 console.error('Error:', error);
-                const errorMessage = document.createElement('div');
-                errorMessage.classList.add('message', 'bot-message');
-                errorMessage.textContent = "An error occurred. Please try again.";
-                chatHistoryDiv.appendChild(errorMessage);
-
+                botMessage.textContent = "An error occurred. Please try again.";
+    
                 // Scroll to bottom of chat history
                 chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
             });
