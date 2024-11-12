@@ -168,32 +168,35 @@
             
             const question = document.getElementById("question").value;
             const chatHistoryDiv = document.getElementById("chatHistory");
-
+        
             if (question.trim() === "") return; // Ignore empty questions
-
+        
             // Append user question to chat history
             const userMessage = document.createElement('div');
             userMessage.classList.add('message', 'user-message');
             userMessage.textContent = question;
             chatHistoryDiv.appendChild(userMessage);
-
+        
             // Clear input
             document.getElementById("question").value = "";
-
+        
             // Scroll to bottom of chat history
             chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
-            
+        
+            // Reset botMessage each time to ensure it's new for each request
             const botMessage = document.createElement('div');
             botMessage.classList.add('message', 'bot-message');
-            botMessage.textContent = "Retrieving..";
+            botMessage.textContent = "Retrieving...";
             chatHistoryDiv.appendChild(botMessage);
-
+        
+            // Scroll to bottom of chat history
             chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
-
-            setTimeout(() => {
+        
+            // Change "Retrieving..." to "thinking..." after 2 seconds
+            const thinkingTimeout = setTimeout(() => {
                 botMessage.textContent = "thinking...";
-            }, 3000);
-
+            }, 2000);
+        
             // Fetch answer from server
             fetch('http://127.0.0.1:5000/ask', {
                 method: 'POST',
@@ -204,16 +207,24 @@
             })
             .then(response => response.json())
             .then(data => {
+                // Clear the "thinking..." timeout
+                clearTimeout(thinkingTimeout);
+        
                 // Replace "thinking..." with the actual answer
-            botMessage.textContent = data.answer;
-
+                botMessage.textContent = data.answer;
+        
                 // Scroll to bottom of chat history
-            chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
+                chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
             })
             .catch(error => {
                 console.error('Error:', error);
+                
+                // Clear the "thinking..." timeout
+                clearTimeout(thinkingTimeout);
+        
+                // Display an error message
                 botMessage.textContent = "An error occurred. Please try again.";
-    
+                
                 // Scroll to bottom of chat history
                 chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
             });

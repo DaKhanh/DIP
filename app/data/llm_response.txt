@@ -1,10 +1,2 @@
 LLM Response:
-Based on the provided data, a recommended Broadening Deepening Elective (BDE) from the School of Computer Science and Engineering (SCSE) would be "APPLIED CRYPTOGRAPHY" with the course code SC4010. 
-
-Course Name: APPLIED CRYPTOGRAPHY
-Course Code: SC4010
-Description: This cryptography course in Computer Science and Engineering aims to develop your ability to understand how cryptographic algorithms work, to identify the problems associated with the application of cryptography in real-world scenarios, and explain the operation of various cryptographic mechanisms. This course will equip you to know deeply the fundamentals of symmetric key ciphers, hash functions and public key ciphers, enabling you to understand and develop secure cryptography solutions in real life cryptography. It will also introduce you to popular cryptographic libraries and APIs for hands-on implementation of security mechanisms, and some prominent cryptographic standards, guidelines and frameworks from the industry and government bodies.
-Academic Units: 3
-Prerequisite: Year 3 standing
-
-Please note that this recommendation is based on the information provided in the documents and the suitability of the course for broadening and deepening elective purposes within the SCSE program.
+The prerequisite for EE3017 is IE2106.
