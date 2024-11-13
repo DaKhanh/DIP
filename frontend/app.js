@@ -1,10 +1,8 @@
 document.getElementById('chat-form').addEventListener('submit', function (e) {
     e.preventDefault();
 
-    // 获取用户输入的问题
     const userInput = document.getElementById('user-input').value;
 
-    // 将用户问题添加到聊天历史中
     const chatHistory = document.getElementById('chat-history');
     const userMessage = document.createElement('li');
     userMessage.textContent = "You: " + userInput;

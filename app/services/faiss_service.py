@@ -141,7 +141,8 @@ def chat_with_llm_chain(question):
 
         Finally, if you are asked about details regarding a certain module please provide the course name, course code, description, academic units, course title and prerequisite and dont include level
         
-        If you are given questions that is related to subjective judgements, please provide a disclaimer that you dont have the exact data to backup your statement. such as when you are asked about which is the best mod
+        don't recommend courses that have 0 Academic Units, or courses code end with L since these modules are Lab modules and shouldnt be reccomended.
+    
     '''
 
     # save the prompt to a file
