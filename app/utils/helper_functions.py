@@ -15,8 +15,8 @@ def extract_keywords(question):
 def is_course_related(question):
     
     course_keywords = ['prereq', 'prerequisite', 'au', 'details', 'course', 'recommend', 
-                       'subject', 'class', 'module', 'ntu', 'major', 'elective', 'learn', 
-                       'mod', 'bde']
+                       'subject', 'class', 'module', 'major', 'elective', 'learn', 
+                       'mod', 'bde','year','mods']
     
     question = re.sub(r'[^\w\s]', '', question.lower())
     

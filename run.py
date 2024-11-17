@@ -12,5 +12,8 @@ def create_app():
     return app
 
 if __name__ == '__main__':
+    print("Welcome to the RAG Chatbot")
+    print("access via file:///D:/dip_all/frontend/templates/chatbot.html")
     app = create_app()
     app.run(host='0.0.0.0', port=5000)
+    

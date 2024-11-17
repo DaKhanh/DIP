@@ -8,7 +8,7 @@ api_blueprint = Blueprint('api', __name__)
 @api_blueprint.route('/', methods=['GET'])
 def home():
     return jsonify({"message": "Welcome to the RAG Chatbot API"}), 200
-
+    
 @api_blueprint.route('/ask', methods=['POST'])
 def ask_question():
     try:

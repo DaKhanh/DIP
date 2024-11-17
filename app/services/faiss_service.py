@@ -115,35 +115,35 @@ def chat_with_llm_chain(question):
     print(f"Saved JSON file to {reranked_results_path}")
 
     # limit the number of documents to 10 to avoid long prompts
-    top_10_reranked_docs = reranked_docs[:10]
+    top_10_reranked_docs = reranked_docs[:20]
 
     context_documents = "\n\n".join([doc["text"].replace('"', '').replace("{",'').replace("}",'') for doc in top_10_reranked_docs])
     print(f"join time: {time.time() - start_time}")
 
     # construct prompt
-    # if is_course_related(question):
-    #     context = f"Documents: {context_documents}\n\nQuestion: {question}"
-    # else:
-    #     context = f"General question: {question}"
+    if is_course_related(question):
+        context = f'''
+        You are an expert assistant. 
+            Now, use the following context to answer the question:
 
-    context = f'''
-    You are an expert assistant. 
-        Now, use the following context to answer the question:
+            Documents: \n\n{context_documents}\n\nQuestion: {question}
 
-        Documents: \n\n{context_documents}\n\nQuestion: {question}
+            Provide a helpful and accurate answer.
+
+            Here some more information you need to consider regarding column provided in the data:
+
+            Core: module that must be taken by the major
+            BDE is Broadening deepening electives. These are the module that is available to students outside of their core to be taken.
+
+            Finally, if you are asked about details regarding a certain module please provide the course name, course code, description, academic units, course title and prerequisite and dont include level
+            
+            don't recommend courses that have 0 Academic Units, or courses code end with L since these modules are Lab modules and shouldnt be reccomended.
         
-        Provide a helpful and accurate answer.
-
-        Here some more information you need to consider regarding column provided in the data:
-
-        Core: module that must be taken by the major
-        BDE is Broadening deepening electives. These are the module that is available to students outside of their core to be taken.
-
-        Finally, if you are asked about details regarding a certain module please provide the course name, course code, description, academic units, course title and prerequisite and dont include level
-        
-        don't recommend courses that have 0 Academic Units, or courses code end with L since these modules are Lab modules and shouldnt be reccomended.
-    
-    '''
+        '''
+    else:
+        context = f'''
+        Question: {question}
+        '''
 
     # save the prompt to a file
     prompt_file_path = "D:\\dip_all\\app\\data\\prompt.txt"
